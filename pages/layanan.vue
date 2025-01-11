@@ -1,7 +1,7 @@
 <template>
   <Navbar />
   <section class="py-16 px-6 font-jakarta">
-    <div class="flex flex-col md:flex-row" id="app">
+    <div class="flex flex-col lg:flex-row" id="app">
       <Sidebar />
       <!-- Main Content -->
       <div class="flex-1  p-4">

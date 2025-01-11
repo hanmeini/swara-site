@@ -17,8 +17,8 @@
 
       <div>
         <p class="mt-3 text-sm sm:text-xl lg:text-base">Memudahkan Anda melaporkan dan memantau kondisi fasilitas umum di sekitar Anda. Layanan publik yang berkualitas dimulai dari partisipasi aktif masyarakat dalam melaporkan permasalahan yang terjadi.</p>
-        <button class="mt-4 px-2 py-1 bg-gray-800 text-white rounded-full flex justify-between gap-5 items-center ">
-          <span class="text-sm font-semibold pr-4 pl-4">Sampaikan Keluhanmu</span>
+        <button class="mt-4 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex gap-2 md:justify-between items-center w-[70%] md:w-auto">
+          <span class="text-sm font-semibold md:pr-4 md:pl-4 [font-size:_clamp(0.1rem,3vw,1rem)]">Sampaikan Keluhanmu</span>
           <div
             class="w-10 h-10 bg-[#A52A2D] rounded-full flex items-center justify-center transition-transform duration-300 translate-x-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
@@ -31,11 +31,10 @@
         </button>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:grid-rows-auto lg:mt-0 lg:w-[60%] z-10">
-      <div class="sm:w-full sm:h-full">
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:grid-rows-auto lg:mt-0 lg:w-[60%] z-10 h-auto">
         <!-- Card 1 -->
         <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[70%] mb-6">
+          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:h-[70%] mb-6">
           <div class="w-full h-full bg-[url('/assets/image/card1.png')] bg-center flex items-start">
             <div
               class="w-full h-full flex flex-col justify-center gap-44 items-start text-white px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
@@ -69,8 +68,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="w-full h-full">
         <!-- Card 3 -->
         <div
           class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[45%] mb-6">
@@ -109,8 +106,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="w-full h-full">
         <!-- Card 5 -->
         <div
           class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[25%] mb-6">
@@ -146,39 +141,38 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
 
-  <!-- Instansi -->
-  <section class="flex flex-col justify-center items-center px-10 py-10 mb-7 w-auto">
-    <h1 class="font-bold text-4xl opacity-70 mb-20">Instansi Terhubung</h1>
-    <!-- Kotak -->
-    <div class="flex flex-row gap-16 mb-10 w-auto">
-      <!-- Kotak 1 -->
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-        <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-          <img class="max-w-full max-h-full" src="/assets/image/instansi1.png" alt="Instansi 1">
-        </div>
-      </div>
-      <!-- Kotak 2 -->
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-        <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-          <img class="max-w-full max-h-full" src="/assets/image/instansi2.png" alt="Instansi 1">
-        </div>
-      </div>
-      <!-- Kotak 3 -->
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-        <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-          <img class="max-w-full max-h-full" src="/assets/image/instansi3.png" alt="Instansi 1">
-        </div>
+<!--   
+<section class="flex flex-col justify-center items-center px-10 py-10 mb-7 w-auto">
+  <h1 class="font-bold text-4xl opacity-70 mb-20">Instansi Terhubung</h1>
+  
+  <div class="flex flex-row gap-16 mb-10 w-auto">
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
+      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <img class="max-w-full max-h-full" src="/assets/image/instansi1.png" alt="Instansi 1">
       </div>
     </div>
-  </section>
 
-  <!-- About -->
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
+      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <img class="max-w-full max-h-full" src="/assets/image/instansi2.png" alt="Instansi 2">
+      </div>
+    </div>
+
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
+      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <img class="max-w-full max-h-full" src="/assets/image/instansi3.png" alt="Instansi 3">
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+  <!-- About
   <section
     class="px-10 py-44 lg:flex lg:justify-between lg:items-start font-jakarta bg-[url('/assets/image/wave.png')] bg-no-repeat bg- bg-center flex flex-row gap-10 relative">
-    <!-- image kiri -->
+    image kiri
     <div class="flex p-5 flex-col gap-5">
       <div
         class="w-24 h-24 left-[28%] bottom-[73%] absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded">
@@ -191,7 +185,7 @@
       </div>
     </div>
 
-    <!-- image tengah -->
+    image tengah
     <div
       class="shadow-lg rounded-extra-rounded p-1 bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] shadow-[#A52A2D]">
       <div class="bg-white h-96 w-60 rounded-[calc(8rem-1.2rem)] flex items-center justify-center relative">
@@ -238,7 +232,7 @@
       </div>
     </div>
 
-    <!-- image kanan -->
+    image kanan
     <div class="flex p-5 flex-col gap-5">
       <div
         class="w-48 h-48 absolute right-[18%] bottom-[60%] bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded">
@@ -251,12 +245,12 @@
         </h1>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <!-- Kontak -->
+  <!-- Kontak
   <section
     class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20 py-16">
-    <!-- Heading -->
+    Heading
     <div class="text-center mb-7 ">
       <h1 class="text-3xl lg:text-5xl font-bold">
         <span class="text-[#a52a2d] m">GET</span> IN TOUCH
@@ -267,17 +261,17 @@
       </p>
     </div>
 
-    <!-- Kontak Section -->
+    Kontak Section
     <div
       class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-20 shadow-[0px_0px_10px_rgba(0,0,0,0.1)]">
       <div class="flex flex-col lg:flex-row bg-white rounded-[calc(3rem-1.2rem)] overflow-hidden w-full max-w-7xl">
-        <!-- Bagian Kontak -->
+        Bagian Kontak
         <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white max-w-sm">
           <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
           <p class="text-sm mb-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
           </p>
-          <!-- Informasi Kontak -->
+          Informasi Kontak
           <div class="flex items-center gap-3 mb-4 ">
             <div class="p-2 bg-white text-red-600 rounded-full shadow-lg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -318,7 +312,7 @@
             </div>
           </div>
 
-          <!-- Social Media -->
+          Social Media
           <p class="font-semibold text-sm mb-2">Follow our social media</p>
           <div class="flex gap-2">
             <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg">
@@ -382,11 +376,11 @@
           </div>
         </div>
 
-        <!-- Bagian Form -->
+        Bagian Form
         <div class="p-8 md:p-12 bg-gradient-to-br from-white via-gray-50 to-red-100 flex-1">
           <form class="space-y-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <!-- Input Nama Lengkap -->
+              Input Nama Lengkap
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -399,7 +393,7 @@
                     class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
-              <!-- Input Perusahaan -->
+              Input Perusahaan
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -415,7 +409,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <!-- Input Nomor Telepon -->
+              Input Nomor Telepon
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -428,7 +422,7 @@
                     class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
-              <!-- Input Email -->
+              Input Email
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -443,7 +437,7 @@
               </div>
             </div>
 
-            <!-- Input Pesan -->
+            Input Pesan
             <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -455,7 +449,7 @@
                 </div>
               </div>
 
-            <!-- Tombol Kirim -->
+            Tombol Kirim
             <div class="flex justify-center items-center">
               <button type="submit"
                 class="w-[30%] items-center justify-center bg-[#454955] hover:bg-gray-600 text-white font-bold py-3 rounded-super-rounded shadow-md transition-all duration-300">
@@ -466,10 +460,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer class="flex flex-col">
+  <!-- <footer class="flex flex-col">
     <div class="bg-gradient-to-r from-[#A52A2D] to-[#3D4047] p-10 flex justify-between">
       <div class="flex flex-col">
         <h1 class="text-white font-bold text-4xl mb-6">Our Newsletter</h1>
@@ -552,7 +546,7 @@
         <h1 class="font-bold text-white">© 2025 Swara</h1>
       </div>
     </div>
-  </footer>
+  </footer> -->
 </template>
 
 <style>
