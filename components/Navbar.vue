@@ -44,7 +44,7 @@
         class="absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-white lg:bg-transparent lg:shadow-none shadow-md p-4 lg:p-0"
       >
         <li class="my-2 lg:my-0">
-          <nuxt-link to="/beranda" class="hover:text-red-600 transition-all duration-200">Beranda</nuxt-link>
+          <nuxt-link to="/index" class="hover:text-red-600 transition-all duration-200">Beranda</nuxt-link>
         </li>
         <li class="my-2 lg:my-0">
           <nuxt-link to="/tentang-kami" class="hover:text-red-600 transition-all duration-200">Tentang Kami</nuxt-link>
@@ -58,6 +58,7 @@
       </ul>
 
       <!-- Sign Up Button -->
+      <nuxt-link to="/signup">
       <button 
         class="hidden lg:flex relative items-center px-7 bg-gray-700 text-white py-2.5 rounded-full group hover:bg-gray-600 transition duration-300"
       >
@@ -72,6 +73,7 @@
           </svg>
         </div>
       </button>
+    </nuxt-link>
     </div>
   </nav>
 </template>

@@ -7,13 +7,20 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
       fontFamily: {
         jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
+      borderRadius: {
+        "super-rounded": "2rem",
+        "extra-rounded": "7rem"
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
