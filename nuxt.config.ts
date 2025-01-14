@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['./assets/main.css'],
+  plugins: [
+    { src: '~/plugins/aos.client.js', mode: 'client' } 
+  ],
 
   postcss: {
     plugins: {

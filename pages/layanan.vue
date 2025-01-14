@@ -1,10 +1,9 @@
 <template>
-  <Navbar />
-  <section class="py-16 px-6 font-jakarta">
-    <div class="flex flex-col lg:flex-row" id="app">
+  <section class="py-16 font-jakarta">
+    <div class="flex flex-col-reverse lg:flex-row" id="app">
       <Sidebar />
       <!-- Main Content -->
-      <div class="flex-1  p-4">
+      <div class="flex-1  p-4 scrollable border-box" >
         <!-- Post 1 -->
         <div class="bg-white p-3 rounded-super-rounded shadow mb-4 w-full relative">
           <div class="flex items-center mb-2">
@@ -66,7 +65,7 @@
             <div class="ml-4 flex-grow">
               <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
                 type="text" />
-              <div class="justify-between flex items-center">
+              <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
                   <svg width="15" height="15" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -96,7 +95,7 @@
                       fill="#A52A2D" />
                   </svg>
                 </div>
-                <button class="bg-[#454955] text-white px-8 py-2 text-sm font-semibold rounded-full ml-auto">
+                <button class="bg-[#454955] text-white px-4 md:px-8 py-1 md:py-2 text-[0.4rem] md:text-sm font-semibold rounded-full ml-auto lg:mt-2">
                   Posting
                 </button>
               </div>
@@ -124,14 +123,10 @@
           </div>
           <div class="ml-12">
             <p class="mb-2 leading-tight">
-              Mohon perhatian untuk armada BRT yang beroperasi. Kami mendapati bahwa salah satu bus mengeluarkan asap
-              tebal saat beroperasi. Kondisi ini tidak hanya mengganggu kenyamanan penumpang dan pengguna jalan lain,
-              tetapi juga mencemari lingkungan dan berpotensi merusak kesehatan. Kami berharap pihak pengelola segera
-              melakukan perbaikan atau pengecekan rutin agar armada yang beroperasi tetap aman, nyaman, dan ramah
-              lingkungan.
+              Saya ingin melaporkan adanya jalan berlubang di Jalan Raya Utama, Kecamatan X, Kota Y. Lubang tersebut berukuran 1 meter x 1 meter dan berkedalaman 30 cm, membahayakan pengemudi dan pejalan kaki. Saya melampirkan foto sebagai bukti kerusakan tersebut. Mohon perbaikan secepatnya untuk menghindari kecelakaan dan kenyamanan pengguna jalan.
             </p>
             <img alt="Bus emitting smoke" class="w-[70%] rounded-super-rounded mb-2 mt-3 "
-              src="./../assets/image/bus.png.webp" />
+              src="./../assets/image/lobang.png" />
           </div>
           <div class="flex items-center text-gray-500 text-sm gap-2 ml-12">
             <svg width="15" height="15" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +159,7 @@
             <div class="ml-4 flex-grow">
               <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
                 type="text" />
-              <div class="justify-between flex items-center">
+              <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
                   <svg width="15" height="15" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -194,7 +189,7 @@
                       fill="#A52A2D" />
                   </svg>
                 </div>
-                <button class="bg-[#454955] text-white px-8 py-2 text-sm font-semibold rounded-full ml-auto">
+                <button class="bg-[#454955] text-white px-4 md:px-8 py-1 md:py-2 text-[0.4rem] md:text-sm font-semibold rounded-full ml-auto lg:mt-2">
                   Posting
                 </button>
               </div>
@@ -204,7 +199,7 @@
       </div>
       <!-- Chat Section -->
       <div
-        class="bg-white w-full m-0 md:w-1/4 lg:w-[35%] h-[20%] p-6 shadow-md border-2  rounded-super-rounded mt-4 border-gray-100 ">
+        class="bg-white w-full hidden lg:block m-0 lg:w-[35%] h-[20%] p-6 shadow-md border-2 rounded-super-rounded mt-4 border-gray-100 ">
         <div class="flex items-center mb-4 ">
           <button class="flex items-center justify-center w-9 h-9 bg-[#a52a2d] rounded-full text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform rotate-180" viewBox="0 0 24 24"
@@ -337,7 +332,7 @@
 
 <style>
 .scrollable {
-  max-height: vh;
+  max-height: 100vh;
   overflow-y: auto;
   scrollbar-width: none;
 }

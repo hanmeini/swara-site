@@ -2,7 +2,7 @@
     <section class="p-20 flex justify-between items-center content-center h-screen flex-col lg:flex-row">
         <!-- Image -->
         <div class="px-10 lg:px-40 w-full h-full relative">
-            <div class="bg-[#454955] flex flex-col px-3 py-3 md:px-7 md:py-8 rounded-full absolute left-[8%] top-[5%] lg:left-[15%] lg:top-[10%]">
+            <div class="bg-[#454955] flex flex-col px-3 py-3 md:px-7 md:py-8 rounded-full absolute left-[8%] top-[5%] lg:left-[15%] lg:top-[10%]" >
                 <svg class="w-2 h-2 mb-5 md:w-5 md:h-5" viewBox="0 0 28 31" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -28,7 +28,7 @@
                 </svg>
             </div>
             <div
-                class="bg-white shadow-sm md:shadow-md p-2 md:p-5 max-w-[50%] shadow-[#A52A2D] rounded-xl md:rounded-super-rounded absolute left-[2%] top-[70%] flex flex-col">
+                class="bg-white shadow-sm md:shadow-md p-2 md:p-5 max-w-[50%] shadow-[#A52A2D] rounded-xl md:rounded-super-rounded absolute left-[2%] top-[70%] flex flex-col" >
                 <div class="flex justify-between md:mb-4">
                     <div class="flex flex-row">
                         <img class="w-4 h-4 md:w-10 md:h-10" src="/assets/image/profile.png" alt="">
@@ -37,7 +37,7 @@
                             <p class="opacity-70 [font-size:_clamp(0.1rem,1vw,0.3rem)] md:text-sm">@ayamr***</p>
                         </div>
                     </div>
-                    <div class="bg-[#A52A2D] rounded-full px-2 md:px-6 flex justify-center items-center gap-3">
+                    <div class="bg-[#A52A2D] rounded-full px-2 md:px-6 flex justify-center items-center gap-3" >
                         <svg class="w-2 h-2 md:w-5 md:h-5" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M12.8333 5.8335C12.8333 5.52408 12.7104 5.22733 12.4916 5.00854C12.2728 4.78975 11.9761 4.66683 11.6667 4.66683H7.98L8.54 2.001C8.55167 1.94266 8.5575 1.8785 8.5575 1.81433C8.5575 1.57516 8.45833 1.3535 8.30083 1.196L7.6825 0.583496L3.84417 4.42183C3.62833 4.63766 3.5 4.92933 3.5 5.25016V11.0835C3.5 11.3929 3.62292 11.6897 3.84171 11.9085C4.0605 12.1272 4.35725 12.2502 4.66667 12.2502H9.91667C10.4008 12.2502 10.815 11.9585 10.99 11.5385L12.7517 7.426C12.8042 7.29183 12.8333 7.15183 12.8333 7.00016V5.8335ZM0 12.2502H2.33333V5.25016H0V12.2502Z"
@@ -48,7 +48,7 @@
                 </div>
                 <p class="[font-size:_clamp(0.3rem,1vw,0.7rem)] md:text-xs font-semibold md:font-medium">Mohon perhatian untuk armada BRT yang beroperasi. Kami mendapati bahwa salah satu bus  mengeluarkan asap tebal saat beroperasi. </p>
             </div>
-            <div class="bg-[#A52A2D] flex flex-col p-4 md:p-6 rounded-2xl md:rounded-3xl absolute right-[7%] top-[40%] md:right-[16%] md:top-[25%]">
+            <div class="bg-[#A52A2D] flex flex-col p-4 md:p-6 rounded-2xl md:rounded-3xl absolute right-[7%] top-[40%] md:right-[16%] md:top-[25%]" >
                 <svg class="w-2 h-2 md:w-10 md:h-10" viewBox="0 0 74 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M37 42.125C42.799 42.125 47.5 37.424 47.5 31.625C47.5 25.826 42.799 21.125 37 21.125C31.201 21.125 26.5 25.826 26.5 31.625C26.5 37.424 31.201 42.125 37 42.125Z"
@@ -60,12 +60,12 @@
             </div>
             <div class="p-1 rounded-3xl md:rounded-[4rem] bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full h-full">
                 <div
-                    class="bg-[url('/assets/image/card3.png')] w-full h-full bg-cover bg-center rounded-[calc(2rem-1rem)] md:rounded-[calc(5rem-1.2rem)]">
+                    class="bg-[url('/assets/image/card3.png')] w-full h-full bg-cover bg-center rounded-[calc(2rem-1rem)] md:rounded-[calc(5rem-1.2rem)]"   >
                 </div>
             </div>
         </div>
         <!-- Form -->
-        <div class="flex flex-col justify-center items-center w-full h-full mt-5">
+        <div class="flex flex-col justify-center items-center w-full h-full mt-5" >
             <h1 class="font-semibold md:text-3xl mb-10"><span class="text-[#A52A2D]">Daftar</span> Sekarang</h1>
             <div
                 class="p-[2px] rounded-2xl md:rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">

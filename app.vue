@@ -7,9 +7,6 @@
 </template>
 
 <script>
-import About from './pages/about.vue';
-
-/* kalo perlu js */
 
 </script>
 

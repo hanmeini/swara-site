@@ -1,10 +1,9 @@
 <template>
-    <Navbar />
-    <section class="py-16 px-6 font-jakarta h-screen">
+    <section class="py-16 font-jakarta h-screen">
         <div class="flex flex-col-reverse xl:flex-row" id="app">
             <Sidebar />
             <!-- Main Content -->
-            <div class="flex-1 p-4 flex-col ">
+            <div class="flex-1 py-4 px-6 flex-col mb-20">
                 <!-- nama akun -->
                 <div class="flex flex-col mb-7">
                     <h1 class="font-bold [font-size:_clamp(1rem,10vw,2rem)]">Keynatasha Zahra</h1>

@@ -1,9 +1,9 @@
 <template>
-    <section class="flex flex-col-reverse lg:flex-row py-16 px-6">
+    <section class="flex flex-col-reverse lg:flex-row py-16">
         <Sidebar/>
         <div class="flex flex-col items-center">
             <!-- search + navigator -->
-            <div class="flex flex-row w-full mt-10 justify-center relative">
+            <div class="flex flex-row w-full lg:w-[80%] mt-10 justify-center relative px-6">
                 <form class="w-full ml-5">
                     <label for="default-search"
                         class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -24,7 +24,7 @@
                 </form>
             </div>
             <!-- sidebar + content -->
-            <div class="w-full mt-10">
+            <div class="w-full mt-10 px-6">
                 <!-- Content -->
                 <div class="flex-1 p-4">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -56,7 +56,7 @@
                             </div>
                             <div class="relative h-auto max-w-full rounded-lg">
                                 <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita5.png" alt="">
-                                <a href="https://foto.bisnis.com/view/20240117/1733068/anggaran-dana-alokasi-khusus-pendidikan-2024" class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:text-xl">
+                                <a href="https://foto.bisnis.com/view/20240117/1733068/anggaran-dana-alokasi-khusus-pendidikan-2024" class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs w-full lg:w-[70%] font-semibold lg:text-xl">
                                     Anggaran Dana Alokasi Khusus Pendidikan 2024 foto.bisnis.com
                                 </a>
                             </div>
@@ -70,13 +70,13 @@
                             </div>
                             <div class="relative h-auto max-w-full rounded-lg">
                                 <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita6.png" alt="">
-                                <a href="https://www.beritamerdekaonline.com/2022/12/pengelolaan-transportasi-umum-di-jateng-bikin-iri-warganet/" class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:text-xl">
+                                <a href="https://www.beritamerdekaonline.com/2022/12/pengelolaan-transportasi-umum-di-jateng-bikin-iri-warganet/" class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs w-full lg:w-[70%] font-semibold lg:text-xl">
                                     Ganjar Cek Jalan Rusak di Pekalongan
                                 </a>
                             </div>
                             <div class="relative h-auto max-w-full rounded-lg">
                                 <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita7.png" alt="">
-                                <p class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:text-xl">
+                                <p class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:w-[70%] w-full lg:text-xl">
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 </p>
                             </div>

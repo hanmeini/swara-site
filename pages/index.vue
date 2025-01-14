@@ -1,13 +1,13 @@
 <template>
   <!-- Hero Section -->
-  <section class=" relative px-10 py-32 lg:flex lg:justify-between lg:items-start font-jakarta">
+  <section id="home" class=" relative px-10 py-32 lg:flex lg:justify-between lg:items-start font-jakarta">
     <!-- Radial Gradient Circle di Kiri -->
     <div
-      class="absolute top-1/3 -left-24 transform -translate-y-1/3 w-96 h-96 bg-gradient-to-br from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
+      class="absolute top-[10%] md:top-[20%] left-0 transform -translate-y-1/3 w-96 h-96 bg-gradient-to-br from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
     </div>
     <!-- Radial Gradient Circle di Kanan -->
     <div
-      class="absolute top-1/2 right-0 transform -translate-y-1/2 w-96 h-96 bg-gradient-to-bl from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
+      class="absolute top-[90%] right-0 transform -translate-y-1/2 w-96 h-96 bg-gradient-to-bl from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
     </div>
     <div class="p-3 flex flex-col gap-0 lg:gap-52 lg:w-[32%]">
       <h1 class="text-3xl sm:text-5xl lg:text-6xl leading-tight z-10 font-bold text-gray-800 items-start hero-text">
@@ -17,261 +17,267 @@
 
       <div>
         <p class="mt-3 text-sm sm:text-xl lg:text-base">Memudahkan Anda melaporkan dan memantau kondisi fasilitas umum di sekitar Anda. Layanan publik yang berkualitas dimulai dari partisipasi aktif masyarakat dalam melaporkan permasalahan yang terjadi.</p>
-        <button class="mt-4 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex gap-2 md:justify-between items-center w-[70%] md:w-auto">
-          <span class="text-sm font-semibold md:pr-4 md:pl-4 [font-size:_clamp(0.1rem,3vw,1rem)]">Sampaikan Keluhanmu</span>
-          <div
-            class="w-10 h-10 bg-[#A52A2D] rounded-full flex items-center justify-center transition-transform duration-300 translate-x-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
-              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <line x1="12" y1="5" x2="19" y2="12"></line>
-              <line x1="12" y1="19" x2="19" y2="12"></line>
-            </svg>
-          </div>
-        </button>
+        <NuxtLink to="/layanan">
+          <button class="mt-4 pl-4 md:pl-5 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex md:gap-6 justify-between items-center w-[75%] md:w-auto">
+            <span class="text-sm font-semibold [font-size:_clamp(0.1rem,3vw,1rem)]">Sampaikan Keluhanmu</span>
+            <div
+              class="w-10 h-10 bg-[#A52A2D] rounded-full flex items-center justify-center transition-transform duration-300 translate-x-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <line x1="12" y1="5" x2="19" y2="12"></line>
+                <line x1="12" y1="19" x2="19" y2="12"></line>
+              </svg>
+            </div>
+          </button>
+        </NuxtLink>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:grid-rows-auto lg:mt-0 lg:w-[60%] z-10 h-auto">
+    <div class="lg:grid gap-4 lg:grid-cols-3 mt-20 lg:mt-0 lg:w-[60%] z-10 h-auto">
         <!-- Card 1 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:h-[70%] mb-6">
-          <div class="w-full h-full bg-[url('/assets/image/card1.png')] bg-center flex items-start">
-            <div
-              class="w-full h-full flex flex-col justify-center gap-44 items-start text-white px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
-              <h3 class="text-lg font-bold">Sejauh mana masalah sampah di Indonesia?</h3>
-              <div>
-                <button
-                  class="mt-4 px-3 py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-5 items-center group-hover:transition duration-300">
-                  <span class="text-sm font-semibold pr-4 pl-4">Telusuri</span>
-                  <div class="w-10 h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <line x1="5" y1="12" x2="19" y2="12"></line>
-                      <line x1="12" y1="5" x2="19" y2="12"></line>
-                      <line x1="12" y1="19" x2="19" y2="12"></line>
-                    </svg>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[45%] mb-6">
-          <div class="w-full h-full bg-[url('/assets/image/card4.png')] bg-center bg-cover flex items-start">
-            <div class="w-full h-full flex flex-col justify-end pb-4 items-start text-white px-6">
-              <div>
-                <p class="mt-2 text-base">Laporkan segala bentuk ketidakadilan dan bantu tegakkan hak masyarakat</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[45%] mb-6">
-          <div class="w-full h-full bg-[url('/assets/image/card6.png')] bg-cover bg-center flex items-start">
-            <div class="w-full h-full flex flex-col justify-center gap-10 items-start text-white px-6">
-              <h3 class="text-lg font-bold">Aspirasi untuk Perubahan</h3>
-              <div>
-                <p class="mt-2 text-sm">Aspirasi Anda adalah langkah awal untuk perubahan</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-end bg-gray-100 h-60 lg:w-full lg:h-[70%] mb-6 ">
-          <div class="w-full h-full bg-[url('/assets/image/card2.png')] bg-center bg-cover flex items-start ">
-            <div
-              class="w-full h-full flex flex-col justify-end items-start text-white px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
-              <div class="mt-auto">
-                <p class="mt-2 text-base">Tawuran Remaja Marak di Semarang, Dua Nyawa Melayang
-                </p>
-                <button
-                  class="mt-4 mb-4 px-3 py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-5 items-center group-hover:transition duration-300">
-                  <span class="text-sm font-semibold pr-4 pl-4">Telusuri</span>
-                  <div class="w-10 h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <line x1="5" y1="12" x2="19" y2="12"></line>
-                      <line x1="12" y1="5" x2="19" y2="12"></line>
-                      <line x1="12" y1="19" x2="19" y2="12"></line>
-                    </svg>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[25%] mb-6">
-          <div class="w-full h-full bg-[url('/assets/image/card5.png')] bg-center bg-cover  flex items-start">
-            <div class="w-full h-full flex flex-col justify-center gap-1 items-start text-white px-6">
-              <div>
-                <p class="mt-2 text-base font-semibold ">Lorem ipsum <br>dolor sit amet <br> conse.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div
-          class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-60 lg:w-full lg:h-[90%] mb-6">
-          <div class="w-full h-full bg-[url('/assets/image/card3.png')] bg-center bg-cover flex items-start">
-            <div
-              class="w-full h-full flex flex-col justify-center gap-40 items-start text-white px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
-              <h3 class="text-lg font-bold">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
-              <button
-                class="mt-4 px-2 py-1  bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-5 items-center group-hover:transition duration-300">
-                <span class="text-sm font-semibold pr-4 pl-4">Telusuri</span>
-                <div class="w-10 h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                     <line x1="12" y1="5" x2="19" y2="12"></line>
-                     <line x1="12" y1="19" x2="19" y2="12"></line>
-                   </svg>
+        <div class="flex-wrap flex gap-2">
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 w-[48%] lg:w-full h-50 lg:h-[70%] mb-6">
+            <div class="w-full h-full bg-[url('/assets/image/card1.png')] bg-center flex items-start">
+              <div
+                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-44 items-start text-white p-4 lg:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
+                <h3 class="text-sm md:text-lg font-bold">Sejauh mana masalah sampah di Indonesia?</h3>
+                <div>
+                  <button
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    <span class="text-sm font-semibold lg:px-4">Telusuri</span>
+                    <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <line x1="12" y1="5" x2="19" y2="12"></line>
+                        <line x1="12" y1="19" x2="19" y2="12"></line>
+                      </svg>
+                    </div>
+                  </button>
                 </div>
-              </button>
+              </div>
             </div>
           </div>
+          <!-- Card 2 -->
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[45%] mb-6">
+            <div class="w-full h-full bg-[url('/assets/image/card4.png')] bg-center bg-cover flex items-start">
+              <div class="w-full h-full flex flex-col justify-end pb-4 items-start text-white pl-2 lg:px-6">
+                <div>
+                  <p class="mt-2 text-sm md:text-base">Laporkan segala bentuk ketidakadilan dan bantu tegakkan hak masyarakat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <!-- Card 3 -->
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[45%] mb-6">
+            <div class="w-full h-full bg-[url('/assets/image/card6.png')] bg-cover bg-center flex items-start">
+              <div class="w-full h-full flex flex-col justify-center gap-5 md:gap-14 md:py-10 items-start text-white px-6">
+                <h3 class="text-xs md:text-lg font-bold">Aspirasi untuk Perubahan</h3>
+                <div>
+                  <p class="mt-2 text-xs md:text-sm">Aspirasi Anda adalah langkah awal untuk perubahan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-end bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[70%] mb-6 ">
+            <div class="w-full h-full bg-[url('/assets/image/card2.png')] bg-center bg-cover flex items-start ">
+              <div
+                class="w-full h-full flex flex-col justify-end items-start text-white p-4 md:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
+                <div class="mt-auto">
+                  <p class="mt-2 text-xs md:text-base mb-16 md:0">Tawuran Remaja Marak di Semarang, Dua Nyawa Melayang
+                  </p>
+                  <button
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    <span class="text-sm font-semibold lg:px-4">Telusuri</span>
+                    <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <line x1="12" y1="5" x2="19" y2="12"></line>
+                        <line x1="12" y1="19" x2="19" y2="12"></line>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <!-- Card 5 -->
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[25%] mb-6">
+            <div class="w-full h-full bg-[url('/assets/image/card5.png')] bg-center bg-cover  flex items-start">
+              <div class="w-full h-full flex flex-col justify-center gap-1 items-start text-white px-6">
+                <div>
+                  <p class="mt-2 text-base font-semibold ">Lorem ipsum <br>dolor sit amet <br> conse.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div
+            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[90%] mb-6">
+            <div class="w-full h-full bg-[url('/assets/image/card3.png')] bg-center bg-cover flex items-start">
+              <div
+                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-40 items-start text-white p-6 lg:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
+                <h3 class="text-xs md:text-lg font-bold">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
+                <button
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    <span class="text-sm font-semibold lg:px-4">Telusuri</span>
+                    <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <line x1="12" y1="5" x2="19" y2="12"></line>
+                        <line x1="12" y1="19" x2="19" y2="12"></line>
+                      </svg>
+                    </div>
+                  </button>
+              </div>
+            </div>
+        </div>
         </div>
       </div>
   </section>
 
-<!--   
-<section class="flex flex-col justify-center items-center px-10 py-10 mb-7 w-auto">
-  <h1 class="font-bold text-4xl opacity-70 mb-20">Instansi Terhubung</h1>
   
-  <div class="flex flex-row gap-16 mb-10 w-auto">
-    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <img class="max-w-full max-h-full" src="/assets/image/instansi1.png" alt="Instansi 1">
+  <section class="flex flex-col justify-center items-center px-10 lg:py-10 mb-7 over overflow-hidden w-full">
+    <h1 class="font-bold text-2xl md:text-4xl opacity-70 mb-20" data-aos="fade-down" data-aos-duration="500">Instansi Terhubung</h1>
+    
+    <div class="flex flex-row gap-3 md:gap-16 mb-10 overflow-x-scroll w-max lg:w-full">
+      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-96 lg:w-full" data-aos="zoom-in-right" data-aos-duration="800">
+        <div class="border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+          <img class="" src="/assets/image/instansi1.png" alt="Instansi 1">
+        </div>
+      </div>
+
+      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96 lg:w-full"  data-aos="zoom-in" data-aos-duration="800" >
+        <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+          <img class="" src="/assets/image/instansi2.png" alt="Instansi 2">
+        </div>
+      </div>
+
+      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96  lg:w-full"  data-aos="zoom-in-left" data-aos-duration="800" data-aos-delay="">
+        <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+          <img class="" src="/assets/image/instansi3.png" alt="Instansi 2">
+        </div>
       </div>
     </div>
-
-    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <img class="max-w-full max-h-full" src="/assets/image/instansi2.png" alt="Instansi 2">
-      </div>
-    </div>
-
-    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
-      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <img class="max-w-full max-h-full" src="/assets/image/instansi3.png" alt="Instansi 3">
-      </div>
-    </div>
-  </div>
-</section> -->
+  </section>
 
 
-  <!-- About
-  <section
-    class="px-10 py-44 lg:flex lg:justify-between lg:items-start font-jakarta bg-[url('/assets/image/wave.png')] bg-no-repeat bg- bg-center flex flex-row gap-10 relative">
-    image kiri
-    <div class="flex p-5 flex-col gap-5">
+  <!-- About -->
+  <section id="about"
+    class="px-10 py-44 items-center justify-center flex-col-reverse lg:flex lg:justify-between lg:items-start font-jakarta bg-[url('/assets/image/wave.png')] bg-no-repeat bg- bg-center flex lg:flex-row gap-10 relative">
+    <!-- image kiri -->
+    <div class="flex p-5 flex-row lg:flex-col gap-5">
       <div
-        class="w-24 h-24 left-[28%] bottom-[73%] absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded">
+        class="lg:block hidden w-24 h-24 left-[28%] bottom-[73%] absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="fade-down" data-aos-duration="500" >
       </div>
-      <div class="w-48 h-48 left-[5%] bottom-[40%] absolute bg-[#454955] rounded-super-rounded content-center px-4">
-        <h1 class="text-white font-semibold">Mendukung perbaikan fasilitas demi kenyamanan dan keamanan bersama.</h1>
+      <!-- mobile muncul -->
+      <div
+        class="w-28 h-28 md:w-48 md:h-48 block lg:hidden left-[28%] bottom-[73%] lg:absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="flip-right" data-aos-duration="500">
+      </div>
+      <div class="w-28 h-28 md:w-48 md:h-48 left-[5%] bottom-[40%] lg:absolute bg-[#454955] rounded-super-rounded content-center px-4" data-aos="fade-up-right" data-aos-duration="500">
+        <h1 class="text-white font-semibold md:text-base [font-size:_clamp(0.5rem,2.3vw,0.4rem)]">Mendukung perbaikan fasilitas demi kenyamanan dan keamanan bersama.</h1>
       </div>
       <div
-        class="w-48 h-48 left-[20%] top-[60%] absolute bg-[url('assets/image/about2.png')] bg-cover bg-center rounded-super-rounded">
+        class="w-28 h-28 md:w-48 md:h-48 left-[20%] top-[60%] lg:absolute bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded" data-aos="zoom-in" data-aos-duration="500">
       </div>
     </div>
 
-    image tengah
+    <!-- image tengah -->
     <div
-      class="shadow-lg rounded-extra-rounded p-1 bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] shadow-[#A52A2D]">
-      <div class="bg-white h-96 w-60 rounded-[calc(8rem-1.2rem)] flex items-center justify-center relative">
-        <img class="h-full w-full" src="/assets/image/masmas.png" alt="" srcset="">
+      class="shadow-lg relative rounded-extra-rounded p-1 bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] shadow-[#A52A2D]" >
+      <div class="bg-white h-96 w-60 rounded-[calc(8rem-1.2rem)] flex items-center justify-center relative" >
+        <img class="h-full w-full absolute" src="/assets/image/masmas.png" alt="" srcset="" >
         <button
-          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-e-3xl rounded-t-3xl p-3 flex flex-row gap-6 items-center justify-center bottom-[55%] left-[90%]">
+          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-e-3xl rounded-t-3xl pl-3 pr-1 flex flex-row items-center justify-between left-[72%] bottom-[55%] md:left-[90%]" data-aos="" data-aos-duration="800">
           <h1 class="font-bold">Lapor</h1>
           <div
             class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
-              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <line x1="12" y1="5" x2="19" y2="12"></line>
-              <line x1="12" y1="19" x2="19" y2="12"></line>
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19" cy="19" r="19" fill="#A52A2D"/>
+            <path d="M19.0001 26.5648C19.4201 26.5648 19.7724 26.4199 20.057 26.1301C20.3415 25.8403 20.4834 25.4821 20.4824 25.0554C20.4814 24.6287 20.3391 24.2705 20.0555 23.9807C19.7719 23.6908 19.4201 23.5459 19.0001 23.5459C18.5801 23.5459 18.2283 23.6908 17.9447 23.9807C17.6611 24.2705 17.5188 24.6287 17.5178 25.0554C17.5168 25.4821 17.6591 25.8408 17.9447 26.1316C18.2303 26.4224 18.5821 26.5668 19.0001 26.5648ZM17.5178 20.5271H20.4824V11.4704H17.5178V20.5271ZM13.4416 32.6026L5.65967 24.678V13.3572L13.4416 5.43262H24.5586L32.3405 13.3572V24.678L24.5586 32.6026H13.4416ZM14.7015 29.5837H23.2987L29.376 23.395V14.6402L23.2987 8.4515H14.7015L8.62421 14.6402V23.395L14.7015 29.5837Z" fill="white"/>
             </svg>
           </div>
         </button>
         <button
-          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-e-3xl rounded-t-3xl p-3 flex flex-row gap-6 items-center justify-center bottom-[20%] left-[70%]">
-          <h1 class="font-bold">Lapor</h1>
+          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-e-3xl rounded-t-3xl pl-3 pr-1 flex flex-row items-center justify-between left-[67%] bottom-[20%] md:left-[70%]" data-aos="" data-aos-duration="800">
+          <h1 class="font-bold">Aspirasi</h1>
           <div
             class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
-              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <line x1="12" y1="5" x2="19" y2="12"></line>
-              <line x1="12" y1="19" x2="19" y2="12"></line>
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19" cy="19" r="19" fill="#A52A2D"/>
+            <path d="M13.8184 20.7006H20.7275V22.4595H13.8184V20.7006ZM13.8184 16.3032H24.182V18.0622H13.8184V16.3032ZM13.8184 25.0979H18.1365V26.8569H13.8184V25.0979Z" fill="white"/>
+            <path d="M26.7727 9.21409H24.1818V8.33462C24.1818 7.86812 23.9998 7.42073 23.6759 7.09086C23.352 6.761 22.9126 6.57568 22.4545 6.57568H15.5455C15.0874 6.57568 14.648 6.761 14.3241 7.09086C14.0002 7.42073 13.8182 7.86812 13.8182 8.33462V9.21409H11.2273C10.7692 9.21409 10.3298 9.39941 10.0059 9.72927C9.68198 10.0591 9.5 10.5065 9.5 10.973V29.4419C9.5 29.9084 9.68198 30.3558 10.0059 30.6856C10.3298 31.0155 10.7692 31.2008 11.2273 31.2008H26.7727C27.2308 31.2008 27.6702 31.0155 27.9941 30.6856C28.318 30.3558 28.5 29.9084 28.5 29.4419V10.973C28.5 10.5065 28.318 10.0591 27.9941 9.72927C27.6702 9.39941 27.2308 9.21409 26.7727 9.21409ZM15.5455 8.33462H22.4545V11.8525H15.5455V8.33462ZM26.7727 29.4419H11.2273V10.973H13.8182V13.6114H24.1818V10.973H26.7727V29.4419Z" fill="white"/>
             </svg>
           </div>
         </button>
         <button
-          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-t-3xl rounded-l-3xl p-3 flex flex-row gap-6 items-center justify-center bottom-[40%] right-[90%]">
+          class="bg-white shadow-[#A52A2D] shadow-sm absolute w-32 h-10 rounded-t-3xl rounded-l-3xl pl-1 pr-3 flex flex-row items-center justify-between right-[70%] bottom-[40%] md:right-[90%]" data-aos="" data-aos-duration="800">
           <div
             class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white transform -rotate-45" viewBox="0 0 24 24"
-              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <line x1="12" y1="5" x2="19" y2="12"></line>
-              <line x1="12" y1="19" x2="19" y2="12"></line>
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19" cy="19" r="19" fill="#A52A2D"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M31 18.5C31 14.2865 31 12.1805 29.989 10.667C29.5511 10.0116 28.9884 9.44887 28.333 9.011C26.8195 8 24.715 8 20.5 8H17.5C13.2865 8 11.1805 8 9.667 9.011C9.01158 9.44887 8.44887 10.0116 8.011 10.667C7 12.1805 7 14.285 7 18.5C7 22.715 7 24.8195 8.011 26.333C8.44887 26.9884 9.01158 27.5511 9.667 27.989C10.9885 28.8725 12.763 28.9835 16 28.9985L17.659 32.3165C17.7837 32.5653 17.9752 32.7745 18.212 32.9208C18.4488 33.067 18.7217 33.1444 19 33.1444C19.2783 33.1444 19.5512 33.067 19.788 32.9208C20.0248 32.7745 20.2163 32.5653 20.341 32.3165L22 29C25.237 28.985 27.01 28.8725 28.333 27.989C28.9884 27.5511 29.5511 26.9884 29.989 26.333C31 24.8195 31 22.715 31 18.5ZM14.5 14C14.1022 14 13.7206 14.158 13.4393 14.4393C13.158 14.7206 13 15.1022 13 15.5C13 15.8978 13.158 16.2794 13.4393 16.5607C13.7206 16.842 14.1022 17 14.5 17H23.5C23.8978 17 24.2794 16.842 24.5607 16.5607C24.842 16.2794 25 15.8978 25 15.5C25 15.1022 24.842 14.7206 24.5607 14.4393C24.2794 14.158 23.8978 14 23.5 14H14.5ZM14.5 20C14.1022 20 13.7206 20.158 13.4393 20.4393C13.158 20.7206 13 21.1022 13 21.5C13 21.8978 13.158 22.2794 13.4393 22.5607C13.7206 22.842 14.1022 23 14.5 23H19C19.3978 23 19.7794 22.842 20.0607 22.5607C20.342 22.2794 20.5 21.8978 20.5 21.5C20.5 21.1022 20.342 20.7206 20.0607 20.4393C19.7794 20.158 19.3978 20 19 20H14.5Z" fill="white"/>
             </svg>
           </div>
-          <h1 class="font-bold">Lapor</h1>
+          <h1 class="font-bold lg:text-sm  text-sm">Kritik saran</h1>
         </button>
       </div>
     </div>
 
-    image kanan
-    <div class="flex p-5 flex-col gap-5">
+    <!-- image kanan -->
+    <div class="p-5 flex-col gap-5 lg:block hidden" >
       <div
-        class="w-48 h-48 absolute right-[18%] bottom-[60%] bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded">
+        class="w-48 h-48 absolute right-[18%] bottom-[60%] bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded" data-aos="zoom-in" data-aos-duration="500">
       </div>
       <div
-        class="w-24 h-24 absolute right-[7%] bottom-[45%] bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded">
+        class="w-24 h-24 absolute right-[7%] bottom-[45%] bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
       </div>
-      <div class="w-48 h-48 absolute right-[20%] top-[60%]  bg-[#454955] rounded-super-rounded content-center px-4">
+      <div class="w-48 h-48 absolute right-[20%] top-[60%] bg-[#454955] rounded-super-rounded content-center px-4" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
         <h1 class="text-white font-semibold">Menghubungkan masyarakat dengan instansi terkait untuk solusi yang tepat.
         </h1>
       </div>
     </div>
-  </section> -->
+  </section>
 
-  <!-- Kontak
-  <section
-    class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20 py-16">
-    Heading
+  <!-- Kontak -->
+  <section id="kontak"
+    class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20">
+    <!-- Heading -->
     <div class="text-center mb-7 ">
-      <h1 class="text-3xl lg:text-5xl font-bold">
-        <span class="text-[#a52a2d] m">GET</span> IN TOUCH
+      <h1 class="text-3xl lg:text-5xl font-bold" data-aos="fade-down" data-aos-duration="500">
+        <span class="text-[#a52a2d] m">HUBUNGI</span>
       </h1>
-      <p class="text-black font-medium mt-6">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et
-        dolore magna aliqua.
+      <p class="text-black font-medium mt-6" data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">
+        Hubungi kami jika anda membutuhkan bantuan. Kami siap melayani anda dengan sepenuh hati
       </p>
     </div>
 
-    Kontak Section
+    <!-- Kontak Section -->
     <div
-      class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-20 shadow-[0px_0px_10px_rgba(0,0,0,0.1)]">
+      class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-20 shadow-[0px_0px_10px_rgba(0,0,0,0.1)]" data-aos="zoom-in-up" data-aos-duration="1000">
       <div class="flex flex-col lg:flex-row bg-white rounded-[calc(3rem-1.2rem)] overflow-hidden w-full max-w-7xl">
-        Bagian Kontak
-        <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white max-w-sm">
+        <!-- Bagian Kontak -->
+        <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white lg:max-w-sm">
           <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
           <p class="text-sm mb-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
           </p>
-          Informasi Kontak
+          <!-- Informasi Kontak -->
           <div class="flex items-center gap-3 mb-4 ">
             <div class="p-2 bg-white text-red-600 rounded-full shadow-lg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -312,7 +318,7 @@
             </div>
           </div>
 
-          Social Media
+          <!-- Social Media -->
           <p class="font-semibold text-sm mb-2">Follow our social media</p>
           <div class="flex gap-2">
             <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg">
@@ -360,14 +366,14 @@
               </svg>
             </div>
           </div>
-          <div class="absolute bottom-0 left-0">
+          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-0">
             <svg width="389" height="70" viewBox="0 0 389 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.2186 11.8041C60.6839 -20.2518 135.46 23.2536 213.774 22.2125C276.203 21.3825 329.049 -11.0565 372.37 11.8041C409.787 31.5489 372.37 82 372.37 82H14.2186C14.2186 82 -17.7732 33.8749 14.2186 11.8041Z"
                 fill="#E9948F" fill-opacity="0.35" />
             </svg>
           </div>
-          <div class="absolute bottom-0 left-0">
+          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-0">
             <svg width="389" height="109" viewBox="0 0 389 109" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.2186 15.6908C60.6839 -26.9201 135.46 30.9102 213.774 29.5263C276.203 28.4231 329.049 -14.6971 372.37 15.6908C409.787 41.9369 372.37 109 372.37 109H14.2186C14.2186 109 -17.7732 45.0288 14.2186 15.6908Z"
@@ -376,11 +382,11 @@
           </div>
         </div>
 
-        Bagian Form
+        <!-- Bagian Form -->
         <div class="p-8 md:p-12 bg-gradient-to-br from-white via-gray-50 to-red-100 flex-1">
           <form class="space-y-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              Input Nama Lengkap
+              <!-- Input Nama Lengkap -->
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -393,7 +399,7 @@
                     class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
-              Input Perusahaan
+              <!-- Input Perusahaan -->
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -409,7 +415,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              Input Nomor Telepon
+              <!-- Input Nomor Telepon -->
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -422,7 +428,7 @@
                     class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
-              Input Email
+              <!-- Input Email -->
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -437,7 +443,7 @@
               </div>
             </div>
 
-            Input Pesan
+            <!-- Input Pesan -->
             <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
                 <div
                   class="relative flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-xl items-center justify-center pl-2">
@@ -449,10 +455,10 @@
                 </div>
               </div>
 
-            Tombol Kirim
+            <!-- Tombol Kirim -->
             <div class="flex justify-center items-center">
               <button type="submit"
-                class="w-[30%] items-center justify-center bg-[#454955] hover:bg-gray-600 text-white font-bold py-3 rounded-super-rounded shadow-md transition-all duration-300">
+                class="w-[50%] md:w-[30%] items-center justify-center bg-[#454955] hover:bg-gray-600 text-white font-bold py-3 rounded-super-rounded shadow-md transition-all duration-300">
                 Kirim
               </button>
             </div>
@@ -460,93 +466,99 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Footer -->
-  <!-- <footer class="flex flex-col">
-    <div class="bg-gradient-to-r from-[#A52A2D] to-[#3D4047] p-10 flex justify-between">
-      <div class="flex flex-col">
-        <h1 class="text-white font-bold text-4xl mb-6">Our Newsletter</h1>
-        <p class="text-white max-w-[50%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque
-          ratione accusamus placeat voluptates reprehenderit.</p>
+  <footer class="flex flex-col">
+    <div class="bg-gradient-to-r from-[#A52A2D] to-[#3D4047] p-10 flex flex-row justify-between">
+      <div class="flex flex-col mb-6 md:mb-0">
+        <h1 class="text-white font-bold [font-size:_clamp(0.7rem,5vw,2rem)] mb-6">Our Newsletter</h1>
+        <p class="text-white w-full md:max-w-[50%]">Laporkan, Kami Perbaiki! Bersama Wujudkan Jawa Tengah yang Lebih Baik.</p>
       </div>
-      <div class="flex flex-col">
-        <div class="p-1 rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-6">
-          <form class="bg-white h-12 border-none focus:outline-none px-2 rounded-full flex justify-between items-center" action="">
-            <input class="border-none focus:outline-none rounded-full h-12 text-center placeholder:text-gray-400"
-              type="text" placeholder="Ketikan pesan">
-            <button class="bg-[#A52A2D] text-white rounded-full px-4 py-3 font-semibold text-sm">
+      <div class="flex flex-col lg:ml-0 ml-5">
+        <div class="p-1 rounded-full bg-gradient-to-br from-[#A52A2D] w-[80] lg:w-full via-white to-[#A52A2D] mb-6">
+          <form class="bg-white h-12 border-none focus:outline-none w-full rounded-full flex justify-between items-center" action="">
+            <input class="border-none focus:outline-none rounded-full h-12 text-center md:text-left px-4 placeholder:text-xs lg:placeholder:text-base placeholder:text-gray-400 w-full md:w-auto flex-1" type="text" placeholder="Ketikan pesan">
+            <button class="bg-[#A52A2D] text-white rounded-full px-4 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.5rem,1vw,0.8rem)]">
               Kirim Pesan
             </button>
           </form>
         </div>
-        <h1 class="font-semibold text-white p-3">www.SwaraJateng.com</h1>
+        <h1 class="font-semibold text-white md:p-3 text-left">www.SwaraJateng.com</h1>
       </div>
     </div>
 
     <div class="relative bg-[url('assets/image/footer2.png')] bg-cover bg-center">
-      <div class="absolute inset-0 bg-black opacity-50"></div>
-      <div class="relative p-10 flex flex-row justify-center gap-14">
-        <div class=" flex flex-col w-full">
-          <h1 class="font-bold text-white text-4xl mb-8">LOGO</h1>
-          <div class="flex flex-row items-center">
-            <a class="bg-white rounded-full p-2 mx-1" href="">
-              <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M8.17084 0.507812H19.1714C23.3621 0.507812 26.7671 3.73919 26.7671 7.71627V18.1561C26.7671 20.0679 25.9668 21.9014 24.5423 23.2533C23.1179 24.6051 21.1859 25.3646 19.1714 25.3646H8.17084C3.98014 25.3646 0.575195 22.1332 0.575195 18.1561V7.71627C0.575195 5.80447 1.37545 3.97097 2.79991 2.61912C4.22437 1.26727 6.15635 0.507813 8.17084 0.507812ZM7.90892 2.99349C6.65854 2.99349 5.45938 3.46488 4.57524 4.30395C3.69109 5.14303 3.19438 6.28107 3.19438 7.4677V18.4047C3.19438 20.8779 5.30283 22.8789 7.90892 22.8789H19.4333C20.6837 22.8789 21.8829 22.4075 22.767 21.5684C23.6512 20.7293 24.1479 19.5913 24.1479 18.4047V7.4677C24.1479 4.99445 22.0394 2.99349 19.4333 2.99349H7.90892ZM20.5465 4.85774C20.9806 4.85774 21.397 5.02142 21.704 5.31277C22.011 5.60411 22.1835 5.99926 22.1835 6.41129C22.1835 6.82332 22.011 7.21847 21.704 7.50981C21.397 7.80116 20.9806 7.96484 20.5465 7.96484C20.1123 7.96484 19.696 7.80116 19.389 7.50981C19.082 7.21847 18.9095 6.82332 18.9095 6.41129C18.9095 5.99926 19.082 5.60411 19.389 5.31277C19.696 5.02142 20.1123 4.85774 20.5465 4.85774ZM13.6711 6.722C15.4078 6.722 17.0733 7.37671 18.3012 8.54209C19.5292 9.70748 20.2191 11.2881 20.2191 12.9362C20.2191 14.5843 19.5292 16.1649 18.3012 17.3303C17.0733 18.4957 15.4078 19.1504 13.6711 19.1504C11.9345 19.1504 10.269 18.4957 9.04102 17.3303C7.81303 16.1649 7.12316 14.5843 7.12316 12.9362C7.12316 11.2881 7.81303 9.70748 9.04102 8.54209C10.269 7.37671 11.9345 6.722 13.6711 6.722ZM13.6711 9.20767C12.6291 9.20767 11.6298 9.6005 10.8931 10.2997C10.1563 10.999 9.74235 11.9473 9.74235 12.9362C9.74235 13.925 10.1563 14.8734 10.8931 15.5726C11.6298 16.2719 12.6291 16.6647 13.6711 16.6647C14.7131 16.6647 15.7124 16.2719 16.4492 15.5726C17.186 14.8734 17.5999 13.925 17.5999 12.9362C17.5999 11.9473 17.186 10.999 16.4492 10.2997C15.7124 9.6005 14.7131 9.20767 13.6711 9.20767Z"
-                  fill="#454955" />
-              </svg>
-            </a>
-            <a class="bg-white rounded-full p-2 mx-1" href="">
-              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M28.7186 14.4999C28.7186 6.68732 22.3779 0.34668 14.5653 0.34668C6.75275 0.34668 0.412109 6.68732 0.412109 14.4999C0.412109 21.3501 5.28082 27.0538 11.7347 28.3701V18.7459H8.90404V14.4999H11.7347V10.9616C11.7347 8.23003 13.9567 6.00797 16.6883 6.00797H20.2266V10.2539H17.396C16.6176 10.2539 15.9807 10.8908 15.9807 11.6693V14.4999H20.2266V18.7459H15.9807V28.5824C23.128 27.8747 28.7186 21.8454 28.7186 14.4999Z"
-                  fill="#454955" />
-              </svg>
-            </a>
-            <a class="bg-white rounded-full p-2 mx-1" href="">
-              <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.7696 0.609375H22.2424L14.6563 9.30188L23.5817 21.1324H16.594L11.1171 13.9587L4.85737 21.1324H1.38134L9.49478 11.8317L0.936523 0.610992H8.1021L13.0452 7.16677L18.7696 0.609375ZM17.5484 19.049H19.4732L7.05072 2.58436H4.98677L17.5484 19.049Z"
-                  fill="#454955" />
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="relative flex flex-col w-full">
-          <h1 class="font-bold text-white text-lg mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-            cum
-            Lorem ipsum dolor sit amet..</h1>
-          <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quos recusandae neque
-            voluptates! Neque quos harum, maxime commodi beatae sunt!</p>
-        </div>
-        <div class="relative flex flex-col w-full items-center">
-          <h1 class="font-bold text-white text-lg mb-8 items-start">Navigasi</h1>
-          <div class="text-white flex flex-col">
-            <a class="mb-2" href="">Beranda</a>
-            <a class="mb-2" href="">Tentang Kami</a>
-            <a class="mb-2" href="">Layanan</a>
-          </div>
-        </div>
-        <div class="relative flex flex-col w-full">
-          <div class="flex items-center gap-4 rounded-md">
-            <div class="bg-white p-2 rounded-full">
-              <svg width="30" height="30" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M2.75047 3.13865C0.472656 5.41387 0.472656 9.08065 0.472656 16.409V21.5918C0.472656 28.9201 0.472656 32.5869 2.75047 34.8621C5.02569 37.1399 8.69247 37.1399 16.0208 37.1399H31.569C38.8974 37.1399 42.5642 37.1399 44.8394 34.8621C47.1172 32.5869 47.1172 28.9201 47.1172 21.5918V16.409C47.1172 9.08065 47.1172 5.41387 44.8394 3.13865C42.5642 0.86084 38.8974 0.86084 31.569 0.86084H16.0208C8.69247 0.86084 5.02569 0.86084 2.75047 3.13865ZM9.68496 9.07028C9.11315 8.68885 8.41323 8.55019 7.73919 8.6848C7.06514 8.81942 6.47217 9.21628 6.09074 9.78809C5.7093 10.3599 5.57064 11.0598 5.70525 11.7339C5.83987 12.4079 6.23673 13.0009 6.80855 13.3823L20.9211 22.789C21.7723 23.3561 22.7722 23.6587 23.7949 23.6587C24.8177 23.6587 25.8176 23.3561 26.6688 22.789L40.7813 13.3823C41.3532 13.0009 41.75 12.4079 41.8846 11.7339C42.0192 11.0598 41.8806 10.3599 41.4992 9.78809C41.1177 9.21628 40.5248 8.81942 39.8507 8.6848C39.1767 8.55019 38.4767 8.68885 37.9049 9.07028L23.7949 18.4769L9.68496 9.07028Z"
-                  fill="#454955" />
-              </svg>
-            </div>
-            <h1 class="font-bold text-white text-xl">SwaraJateng@gmail.com</h1>
-          </div>
-        </div>
-      </div>
-      <div class="relative bg-white h-[2px]"></div>
-      <div class="relative p-5 flex justify-center items-center">
-        <h1 class="font-bold text-white">© 2025 Swara</h1>
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="relative p-10 flex flex-col lg:flex-row justify-center items-start lg:gap-14 gap-8">
+    <!-- Logo Section -->
+    <div class="flex flex-col w-full text-left lg:text-left">
+      <img class="w-[4rem] h-[4rem] lg:w-[5rem] lg:h-[5rem] mb-5" src="/assets/image/logoswara.png" alt="">
+      <div class="flex justify-start lg:justify-start items-left">
+        <a class="bg-white rounded-full p-2 mx-1" href="">
+          <!-- Icon SVG -->
+          <svg width="29" height="29" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.17084 0.507812H19.1714C23.3621 0.507812 26.7671 3.73919 26.7671 7.71627V18.1561C26.7671 20.0679 25.9668 21.9014 24.5423 23.2533C23.1179 24.6051 21.1859 25.3646 19.1714 25.3646H8.17084C3.98014 25.3646 0.575195 22.1332 0.575195 18.1561V7.71627C0.575195 5.80447 1.37545 3.97097 2.79991 2.61912C4.22437 1.26727 6.15635 0.507813 8.17084 0.507812ZM7.90892 2.99349C6.65854 2.99349 5.45938 3.46488 4.57524 4.30395C3.69109 5.14303 3.19438 6.28107 3.19438 7.4677V18.4047C3.19438 20.8779 5.30283 22.8789 7.90892 22.8789H19.4333C20.6837 22.8789 21.8829 22.4075 22.767 21.5684C23.6512 20.7293 24.1479 19.5913 24.1479 18.4047V7.4677C24.1479 4.99445 22.0394 2.99349 19.4333 2.99349H7.90892ZM20.5465 4.85774C20.9806 4.85774 21.397 5.02142 21.704 5.31277C22.011 5.60411 22.1835 5.99926 22.1835 6.41129C22.1835 6.82332 22.011 7.21847 21.704 7.50981C21.397 7.80116 20.9806 7.96484 20.5465 7.96484C20.1123 7.96484 19.696 7.80116 19.389 7.50981C19.082 7.21847 18.9095 6.82332 18.9095 6.41129C18.9095 5.99926 19.082 5.60411 19.389 5.31277C19.696 5.02142 20.1123 4.85774 20.5465 4.85774ZM13.6711 6.722C15.4078 6.722 17.0733 7.37671 18.3012 8.54209C19.5292 9.70748 20.2191 11.2881 20.2191 12.9362C20.2191 14.5843 19.5292 16.1649 18.3012 17.3303C17.0733 18.4957 15.4078 19.1504 13.6711 19.1504C11.9345 19.1504 10.269 18.4957 9.04102 17.3303C7.81303 16.1649 7.12316 14.5843 7.12316 12.9362C7.12316 11.2881 7.81303 9.70748 9.04102 8.54209C10.269 7.37671 11.9345 6.722 13.6711 6.722ZM13.6711 9.20767C12.6291 9.20767 11.6298 9.6005 10.8931 10.2997C10.1563 10.999 9.74235 11.9473 9.74235 12.9362C9.74235 13.925 10.1563 14.8734 10.8931 15.5726C11.6298 16.2719 12.6291 16.6647 13.6711 16.6647C14.7131 16.6647 15.7124 16.2719 16.4492 15.5726C17.186 14.8734 17.5999 13.925 17.5999 12.9362C17.5999 11.9473 17.186 10.999 16.4492 10.2997C15.7124 9.6005 14.7131 9.20767 13.6711 9.20767Z" fill="#454955"/>
+          </svg>
+        </a>
+        <a class="bg-white rounded-full p-2 mx-1" href="">
+          <!-- Icon SVG -->
+          <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28.7186 14.4999C28.7186 6.68732 22.3779 0.34668 14.5653 0.34668C6.75275 0.34668 0.412109 6.68732 0.412109 14.4999C0.412109 21.3501 5.28082 27.0538 11.7347 28.3701V18.7459H8.90404V14.4999H11.7347V10.9616C11.7347 8.23003 13.9567 6.00797 16.6883 6.00797H20.2266V10.2539H17.396C16.6176 10.2539 15.9807 10.8908 15.9807 11.6693V14.4999H20.2266V18.7459H15.9807V28.5824C23.128 27.8747 28.7186 21.8454 28.7186 14.4999Z" fill="#454955"/>
+          </svg>
+        </a>
+        <a class="bg-white rounded-full p-2 mx-1" href="">
+          <!-- Icon SVG -->
+          <svg width="29" height="29" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.7696 0.609375H22.2424L14.6563 9.30188L23.5817 21.1324H16.594L11.1171 13.9587L4.85737 21.1324H1.38134L9.49478 11.8317L0.936523 0.610992H8.1021L13.0452 7.16677L18.7696 0.609375ZM17.5484 19.049H19.4732L7.05072 2.58436H4.98677L17.5484 19.049Z" fill="#454955"/>
+          </svg>
+        </a>
       </div>
     </div>
-  </footer> -->
+
+    <!-- Description Section -->
+    <div class="relative flex flex-col w-full text-left md:text-left">
+      <h1 class="font-bold text-white text-lg mb-8">
+        Menuju Jawa Tengah Lebih Baik
+      </h1>
+      <p class="text-white">
+        Kami hadir untuk memudahkan Anda melaporkan kerusakan atau masalah pada fasilitas umum di Jawa Tengah & kunci untuk menciptakan lingkungan yang nyaman dan aman bagi semua.
+      </p>
+    </div>
+
+    <!-- Navigation Section -->
+    <div class="relative flex flex-col w-full text-left md:text-left">
+      <h1 class="font-bold text-white text-lg mb-8">Navigasi</h1>
+      <div class="text-white flex flex-col">
+        <a class="mb-2" href="">Beranda</a>
+        <a class="mb-2" href="">Tentang Kami</a>
+        <a class="mb-2" href="">Layanan</a>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="relative flex flex-col w-full text-left md:text-left">
+      <div class="flex items-center justify-start md:justify-start gap-4 rounded-md">
+        <div class="bg-white p-2 rounded-full">
+          <svg width="38" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75047 3.13865C0.472656 5.41387 0.472656 9.08065 0.472656 16.409V21.5918C0.472656 28.9201 0.472656 32.5869 2.75047 34.8621C5.02569 37.1399 8.69247 37.1399 16.0208 37.1399H31.569C38.8974 37.1399 42.5642 37.1399 44.8394 34.8621C47.1172 32.5869 47.1172 28.9201 47.1172 21.5918V16.409C47.1172 9.08065 47.1172 5.41387 44.8394 3.13865C42.5642 0.86084 38.8974 0.86084 31.569 0.86084H16.0208C8.69247 0.86084 5.02569 0.86084 2.75047 3.13865ZM9.68496 9.07028C9.11315 8.68885 8.41323 8.55019 7.73919 8.6848C7.06514 8.81942 6.47217 9.21628 6.09074 9.78809C5.7093 10.3599 5.57064 11.0598 5.70525 11.7339C5.83987 12.4079 6.23673 13.0009 6.80855 13.3823L20.9211 22.789C21.7723 23.3561 22.7722 23.6587 23.7949 23.6587C24.8177 23.6587 25.8176 23.3561 26.6688 22.789L40.7813 13.3823C41.3532 13.0009 41.75 12.4079 41.8846 11.7339C42.0192 11.0598 41.8806 10.3599 41.4992 9.78809C41.1177 9.21628 40.5248 8.81942 39.8507 8.6848C39.1767 8.55019 38.4767 8.68885 37.9049 9.07028L23.7949 18.4769L9.68496 9.07028Z" fill="#454955"/>
+          </svg>
+        </div>
+        <h1 class="font-bold text-white text-lg md:text-xl">SwaraJateng@gmail.com</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Separator Line -->
+  <div class="relative bg-white h-[2px]"></div>
+
+  <!-- Footer Bottom -->
+  <div class="relative p-5 flex justify-center items-center">
+    <h1 class="font-bold text-white">© 2025 Swara</h1>
+  </div>
+</div>
+
+  </footer>
 </template>
 
 <style>
