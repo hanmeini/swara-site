@@ -3,7 +3,7 @@
         <Sidebar/>
         <div class="flex flex-col items-center">
             <!-- search + navigator -->
-            <div class="flex flex-row w-full lg:w-[80%] mt-10 justify-center relative px-6">
+            <div class="flex flex-row w-full lg:w-[80%] mt-10 justify-center relative px-6"     >
                 <form class="w-full ml-5">
                     <label for="default-search"
                         class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -18,15 +18,14 @@
                         <input type="search" id="default-search"
                             class="block w-full p-4 ps-10 text-sm text-gray-900 border border-[#A52A2D] rounded-3xl bg-gray-50 focus:ring-[#A52A2D] focus:border-[#A52A2D]"
                             placeholder="Search" required />
-                        <button type="submit"
-                            class="text-white absolute end-2.5 bottom-2.5 bg-[#A52A2D] hover:bg-[#711a1c] focus:ring-4 focus:outline-none focus:ring-[#fb5c5fd0] font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                        
                     </div>
                 </form>
             </div>
             <!-- sidebar + content -->
             <div class="w-full mt-10 px-6">
                 <!-- Content -->
-                <div class="flex-1 p-4">
+                <div class="flex-1 p-4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200" >
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <div class="grid gap-4">
                             <div class="h-auto max-w-full rounded-lg items-center justify-center text-center">
@@ -47,9 +46,9 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="grid gap-4">
-                            <div class="relative h-auto max-w-full rounded-lg">
-                                <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita2.png" alt="">
+                        <div class="grid gap-4" >
+                            <div class="relative h-auto max-w-full rounded-lg ">
+                                <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita2.png " alt="">
                                 <a href="https://tender-indonesia.com/m/proomdet.php?prm=11136" class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:text-xl">
                                     Tender Pengadaan Sarana dan Prasarana Stadion Jatidiri
                                 </a>
@@ -77,7 +76,7 @@
                             <div class="relative h-auto max-w-full rounded-lg">
                                 <img class="h-auto max-w-full rounded-lg" src="/assets/image/berita7.png" alt="">
                                 <p class="absolute top-[10%] left-[5%] text-white px-2 py-1 rounded-lg text-xs font-semibold lg:w-[70%] w-full lg:text-xl">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Fasilitas di tlj tidak berguna
                                 </p>
                             </div>
                         </div>
@@ -102,7 +101,7 @@
     </section>
 </template>
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted } from 'vue';
 import Sidebar from '~/components/Sidebar.vue';
 
 onMounted(() => {
@@ -124,7 +123,6 @@ onMounted(() => {
     let hours = now.getHours();
     const minutes = now.getMinutes().toString().padStart(2, '0');
 
-
     let greetingMessage = 'Selamat Pagi';
     if (hours >= 12 && hours < 17) {
       greetingMessage = 'Selamat Siang';
@@ -134,6 +132,7 @@ onMounted(() => {
       greetingMessage = 'Selamat Malam';
     }
 
+    // Use backticks for template literals
     dayElement.textContent = `${day}, ${date} ${month} ${year}`;
     greetingElement.textContent = greetingMessage;
     timeElement.textContent = `${hours}:${minutes}`;

@@ -1,8 +1,8 @@
 <template>
-    <section class="p-20 flex justify-between items-center content-center h-screen flex-col lg:flex-row-reverse">
+    <section class="px-10 my-20 md:my-0 lg:my-0 md:px-20 md:py-20 flex justify-between items-center content-center h-screen flex-col lg:flex-row-reverse">
         <!-- Image -->
         <div class="px-10 lg:px-40 w-full h-full relative lg:ml-20">
-            <div class="bg-[#454955] flex flex-col px-3 py-3 md:px-7 md:py-8 rounded-full absolute left-[8%] top-[5%] lg:left-[15%] lg:top-[10%]">
+            <div class="bg-[#454955] flex flex-col px-3 py-3 md:px-7 md:py-8 rounded-full absolute left-[8%] top-[5%] md:left-[2%] md:top-[10%] lg:left-[15%] lg:top-[10%]">
                 <svg class="w-2 h-2 mb-5 md:w-5 md:h-5" viewBox="0 0 28 31" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -48,8 +48,8 @@
                 </div>
                 <p class="[font-size:_clamp(0.3rem,1vw,0.7rem)] md:text-xs font-semibold md:font-medium">Mohon perhatian untuk armada BRT yang beroperasi. Kami mendapati bahwa salah satu bus  mengeluarkan asap tebal saat beroperasi. </p>
             </div>
-            <div class="bg-[#A52A2D] flex flex-col p-4 md:p-6 rounded-2xl md:rounded-3xl absolute right-[7%] top-[40%] md:right-[16%] md:top-[25%]">
-                <svg class="w-2 h-2 md:w-10 md:h-10" viewBox="0 0 74 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="bg-[#A52A2D] flex flex-col p-4 md:p-6 rounded-2xl md:rounded-3xl absolute right-[7%] top-[40%] md:right-[1%] md:top-[30%] lg:right-[16%] lg:top-[25%]">
+                <svg class="w-5 h-5 md:w-10 md:h-10" viewBox="0 0 74 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M37 42.125C42.799 42.125 47.5 37.424 47.5 31.625C47.5 25.826 42.799 21.125 37 21.125C31.201 21.125 26.5 25.826 26.5 31.625C26.5 37.424 31.201 42.125 37 42.125Z"
                         fill="white" />
@@ -66,44 +66,45 @@
         </div>
         <!-- Form -->
         <div class="flex flex-col justify-center items-center w-full h-full mt-5">
-            <h1 class="font-semibold md:text-3xl mb-10">Masuk ke<span class="text-[#A52A2D] italic">Swara</span></h1>
+            <h1 class="font-semibold md:text-3xl  mb-2 md:mb-4">Masuk ke<span class="text-[#A52A2D] italic">Swara</span></h1>
+            <p class="mb-10 text-xs font-semibold opacity-65 md:text-base">Sampaikan, dan Perbaiki Bersama!</p>
             <div
-                class="p-[2px] rounded-2xl md:rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
+                class="p-[2px] rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
                 <div
-                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-2xl md:rounded-full items-center justify-center pl-4 w-full">
+                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-full items-center justify-center pl-4 w-full">
                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M9.99963 10.5C11.392 10.5 12.7274 9.96663 13.7119 9.01723C14.6965 8.06783 15.2496 6.78016 15.2496 5.4375C15.2496 4.09484 14.6965 2.80718 13.7119 1.85777C12.7274 0.908369 11.392 0.375 9.99963 0.375C8.60724 0.375 7.27188 0.908369 6.28732 1.85777C5.30275 2.80718 4.74963 4.09484 4.74963 5.4375C4.74963 6.78016 5.30275 8.06783 6.28732 9.01723C7.27188 9.96663 8.60724 10.5 9.99963 10.5ZM18.2859 20.625C19.3674 20.625 20.1986 19.6783 19.8119 18.7029C19.0532 16.7861 17.7087 15.1366 15.9564 13.9728C14.204 12.8091 12.1265 12.186 9.99875 12.186C7.87103 12.186 5.79348 12.8091 4.04113 13.9728C2.28879 15.1366 0.944289 16.7861 0.185625 18.7029C-0.199375 19.6783 0.630125 20.625 1.71163 20.625H18.2859Z"
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Nama Lengkap"
-                        class="w-full focus:outline-none border-none bg-white rounded-2xl md:rounded-full p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
-                class="p-[2px] rounded-2xl md:rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
+                class="p-[2px] rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
                 <div
-                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-2xl md:rounded-full items-center justify-center pl-4 w-full">
+                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-full items-center justify-center pl-4 w-full">
                     <svg width="20" height="20" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M2.75047 3.13865C0.472656 5.41387 0.472656 9.08065 0.472656 16.409V21.5918C0.472656 28.9201 0.472656 32.5869 2.75047 34.8621C5.02569 37.1399 8.69247 37.1399 16.0208 37.1399H31.569C38.8974 37.1399 42.5642 37.1399 44.8394 34.8621C47.1172 32.5869 47.1172 28.9201 47.1172 21.5918V16.409C47.1172 9.08065 47.1172 5.41387 44.8394 3.13865C42.5642 0.86084 38.8974 0.86084 31.569 0.86084H16.0208C8.69247 0.86084 5.02569 0.86084 2.75047 3.13865ZM9.68496 9.07028C9.11315 8.68885 8.41323 8.55019 7.73919 8.6848C7.06514 8.81942 6.47217 9.21628 6.09074 9.78809C5.7093 10.3599 5.57064 11.0598 5.70525 11.7339C5.83987 12.4079 6.23673 13.0009 6.80855 13.3823L20.9211 22.789C21.7723 23.3561 22.7722 23.6587 23.7949 23.6587C24.8177 23.6587 25.8176 23.3561 26.6688 22.789L40.7813 13.3823C41.3532 13.0009 41.75 12.4079 41.8846 11.7339C42.0192 11.0598 41.8806 10.3599 41.4992 9.78809C41.1177 9.21628 40.5248 8.81942 39.8507 8.6848C39.1767 8.55019 38.4767 8.68885 37.9049 9.07028L23.7949 18.4769L9.68496 9.07028Z"
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Email"
-                        class="w-full focus:outline-none border-none bg-white rounded-2xl md:rounded-full p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
-                class="p-[2px] rounded-2xl md:rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
+                class="p-[2px] rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
                 <div
-                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-2xl md:rounded-full items-center justify-center pl-4 w-full">
+                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-full items-center justify-center pl-4 w-full">
                     <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M8 16C8.53043 16 9.03914 15.7893 9.41421 15.4142C9.78929 15.0391 10 14.5304 10 14C10 13.4696 9.78929 12.9609 9.41421 12.5858C9.03914 12.2107 8.53043 12 8 12C7.46957 12 6.96086 12.2107 6.58579 12.5858C6.21071 12.9609 6 13.4696 6 14C6 14.5304 6.21071 15.0391 6.58579 15.4142C6.96086 15.7893 7.46957 16 8 16ZM14 7C14.5304 7 15.0391 7.21071 15.4142 7.58579C15.7893 7.96086 16 8.46957 16 9V19C16 19.5304 15.7893 20.0391 15.4142 20.4142C15.0391 20.7893 14.5304 21 14 21H2C1.46957 21 0.960859 20.7893 0.585786 20.4142C0.210714 20.0391 0 19.5304 0 19V9C0 8.46957 0.210714 7.96086 0.585786 7.58579C0.960859 7.21071 1.46957 7 2 7H3V5C3 3.67392 3.52678 2.40215 4.46447 1.46447C5.40215 0.526784 6.67392 0 8 0C8.65661 0 9.30679 0.129329 9.91342 0.380602C10.52 0.631876 11.0712 1.00017 11.5355 1.46447C11.9998 1.92876 12.3681 2.47995 12.6194 3.08658C12.8707 3.69321 13 4.34339 13 5V7H14ZM8 2C7.20435 2 6.44129 2.31607 5.87868 2.87868C5.31607 3.44129 5 4.20435 5 5V7H11V5C11 4.20435 10.6839 3.44129 10.1213 2.87868C9.55871 2.31607 8.79565 2 8 2Z"
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Password"
-                        class="w-full focus:outline-none border-none bg-white rounded-2xl md:rounded-full p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div class="w-full items-start ml-10 mb-5">

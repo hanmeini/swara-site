@@ -73,37 +73,62 @@
 
         <!-- Menu Links -->
         <ul class="lg:flex text-white lg:text-gray-800 font-semibold text-sm space-y-5 lg:space-y-0 lg:space-x-8">
-          <li class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
+          <nuxt-link 
+          aria-label="home"
+          @click.native.prevent="scrollToHash('#home', '/')"
+          class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
             <svg class="lg:hidden" width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 10.6286V4.45714C0 4.24 0.0532498 4.03429 0.15975 3.84C0.26625 3.64571 0.413 3.48571 0.6 3.36L5.1 0.274286C5.3625 0.0914286 5.6625 0 6 0C6.3375 0 6.6375 0.0914286 6.9 0.274286L11.4 3.36C11.5875 3.48571 11.7345 3.64571 11.841 3.84C11.9475 4.03429 12.0005 4.24 12 4.45714V10.6286C12 11.0057 11.853 11.3287 11.559 11.5975C11.265 11.8663 10.912 12.0005 10.5 12H8.25C8.0375 12 7.8595 11.9342 7.716 11.8025C7.5725 11.6709 7.5005 11.5081 7.5 11.3143V7.88571C7.5 7.69143 7.428 7.52869 7.284 7.39749C7.14 7.26629 6.962 7.20046 6.75 7.2H5.25C5.0375 7.2 4.8595 7.26583 4.716 7.39749C4.5725 7.52914 4.5005 7.69188 4.5 7.88571V11.3143C4.5 11.5086 4.428 11.6715 4.284 11.8032C4.14 11.9349 3.962 12.0005 3.75 12H1.5C1.0875 12 0.7345 11.8658 0.441 11.5975C0.1475 11.3291 0.0005 11.0062 0 10.6286Z" fill="white"/>
             </svg>
-            <nuxt-link to="/" class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Beranda</nuxt-link>
-          </li>
-          <li class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
-            <svg class="lg:hidden" width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00015 0.333496C10.6821 0.333496 13.6668 3.31825 13.6668 7.00015C13.6668 10.682 10.6821 13.6668 7.00015 13.6668C3.31828 13.6668 0.333496 10.6821 0.333496 7.00015C0.333496 3.31825 3.31828 0.333496 7.00015 0.333496ZM7.66828 6.3335H6.33496V10.3335H7.66828V6.3335ZM7.00693 3.50015C6.52087 3.50015 6.16828 3.85078 6.16828 4.32425C6.16828 4.81687 6.51159 5.16684 7.00693 5.16684C7.48303 5.16684 7.83496 4.81684 7.83496 4.3335C7.83496 3.85081 7.48303 3.50015 7.00693 3.50015Z" fill="white"/>
+            <p class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Beranda</p>
+          </nuxt-link>
+          <nuxt-link 
+            to="/" 
+            class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent"
+            aria-label="Tentang Kami"
+            @click.native.prevent="scrollToHash('#about', '/')"
+          >
+            <svg 
+              class="lg:hidden" 
+              width="16" 
+              height="16" 
+              viewBox="0 0 14 14" 
+              fill="none" 
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path 
+                fill-rule="evenodd" 
+                clip-rule="evenodd" 
+                d="M7.00015 0.333496C10.6821 0.333496 13.6668 3.31825 13.6668 7.00015C13.6668 10.682 10.6821 13.6668 7.00015 13.6668C3.31828 13.6668 0.333496 10.6821 0.333496 7.00015C0.333496 3.31825 3.31828 0.333496 7.00015 0.333496ZM7.66828 6.3335H6.33496V10.3335H7.66828V6.3335ZM7.00693 3.50015C6.52087 3.50015 6.16828 3.85078 6.16828 4.32425C6.16828 4.81687 6.51159 5.16684 7.00693 5.16684C7.48303 5.16684 7.83496 4.81684 7.83496 4.3335C7.83496 3.85081 7.48303 3.50015 7.00693 3.50015Z" 
+                fill="white"
+              />
             </svg>
-            <nuxt-link to="#about" class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Tentang Kami</nuxt-link>
-          </li>
-          <li class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
+            <p class="text-base lg:text-sm transition-all duration-200 lg:hover:text-red-600">
+              Tentang Kami
+            </p>
+          </nuxt-link>
+          <nuxt-link to="/layanan" class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
             <svg class="lg:hidden" width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.66775 1.54964C5.76669 1.59403 5.85068 1.66607 5.90963 1.75708C5.96857 1.8481 5.99996 1.95421 6 2.06264V9.93764C5.99988 10.046 5.96847 10.152 5.90953 10.243C5.8506 10.3339 5.76665 10.4059 5.66778 10.4502C5.56892 10.4946 5.45934 10.5095 5.35223 10.493C5.24511 10.4766 5.14503 10.4296 5.064 10.3576L2.6925 8.25014H1.5C1.30109 8.25014 1.11032 8.17113 0.96967 8.03047C0.829018 7.88982 0.75 7.69906 0.75 7.50014V4.50014C0.75 4.30123 0.829018 4.11047 0.96967 3.96981C1.11032 3.82916 1.30109 3.75014 1.5 3.75014H2.6925L5.064 1.64264C5.14498 1.57063 5.24504 1.52354 5.35215 1.50705C5.45926 1.49055 5.56885 1.50534 5.66775 1.54964ZM9.7125 2.28764C9.661 2.23238 9.5989 2.18805 9.5299 2.15731C9.4609 2.12656 9.38642 2.11003 9.31089 2.1087C9.23536 2.10737 9.16034 2.12126 9.0903 2.14955C9.02026 2.17784 8.95663 2.21995 8.90322 2.27336C8.84981 2.32678 8.8077 2.3904 8.77941 2.46045C8.75112 2.53049 8.73722 2.60551 8.73856 2.68104C8.73989 2.75656 8.75642 2.83105 8.78716 2.90005C8.81791 2.96905 8.86223 3.03115 8.9175 3.08264C9.30075 3.46571 9.60476 3.92053 9.81219 4.42113C10.0196 4.92172 10.1264 5.45828 10.1264 6.00014C10.1264 6.54201 10.0196 7.07857 9.81219 7.57916C9.60476 8.07975 9.30075 8.53458 8.9175 8.91764C8.86223 8.96914 8.81791 9.03124 8.78716 9.10024C8.75642 9.16924 8.73989 9.24372 8.73856 9.31925C8.73722 9.39478 8.75112 9.4698 8.77941 9.53984C8.8077 9.60988 8.84981 9.67351 8.90322 9.72692C8.95663 9.78034 9.02026 9.82244 9.0903 9.85073C9.16034 9.87903 9.23536 9.89292 9.31089 9.89159C9.38642 9.89025 9.4609 9.87372 9.5299 9.84298C9.5989 9.81223 9.661 9.76791 9.7125 9.71264C10.2001 9.22513 10.5868 8.64635 10.8507 8.00936C11.1146 7.37236 11.2504 6.68963 11.2504 6.00014C11.2504 5.31066 11.1146 4.62793 10.8507 3.99093C10.5868 3.35394 10.2001 2.77516 9.7125 2.28764Z" fill="white"/>
             <path d="M8.121 3.87923C8.06951 3.82396 8.00741 3.77963 7.93841 3.74889C7.86941 3.71815 7.79492 3.70162 7.7194 3.70028C7.64387 3.69895 7.56885 3.71284 7.49881 3.74113C7.42876 3.76943 7.36514 3.81153 7.31172 3.86495C7.25831 3.91836 7.2162 3.98199 7.18791 4.05203C7.15962 4.12207 7.14573 4.19709 7.14706 4.27262C7.14839 4.34815 7.16492 4.42263 7.19567 4.49163C7.22641 4.56063 7.27074 4.62273 7.326 4.67423C7.50017 4.84834 7.63832 5.05506 7.73258 5.28258C7.82684 5.5101 7.87535 5.75396 7.87535 6.00023C7.87535 6.2465 7.82684 6.49035 7.73258 6.71787C7.63832 6.94539 7.50017 7.15211 7.326 7.32623C7.27074 7.37772 7.22641 7.43982 7.19567 7.50882C7.16492 7.57782 7.14839 7.65231 7.14706 7.72783C7.14573 7.80336 7.15962 7.87838 7.18791 7.94842C7.2162 8.01847 7.25831 8.08209 7.31172 8.1355C7.36514 8.18892 7.42876 8.23103 7.49881 8.25932C7.56885 8.28761 7.64387 8.3015 7.7194 8.30017C7.79492 8.29884 7.86941 8.28231 7.93841 8.25156C8.00741 8.22082 8.06951 8.17649 8.121 8.12123C8.68342 7.55864 8.99936 6.79572 8.99936 6.00023C8.99936 5.20473 8.68342 4.44181 8.121 3.87923Z" fill="white"/>
             </svg>
-            <nuxt-link to="/layanan" class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Layanan</nuxt-link>
-          </li>
-          <li class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
+            <p class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Layanan</p>
+          </nuxt-link>
+          <nuxt-link to="/"
+          aria-label="Kontak"
+          @click.native.prevent="scrollToHash('#kontak', '/')" class="flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
             <svg class="lg:hidden" width="16" height="16" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2.58583 4.84458C3.36583 6.3775 4.6225 7.63417 6.15542 8.41417L7.34708 7.2225C7.49875 7.07083 7.71 7.0275 7.89958 7.08708C8.50625 7.2875 9.15625 7.39583 9.83333 7.39583C9.97699 7.39583 10.1148 7.4529 10.2164 7.55448C10.3179 7.65607 10.375 7.79384 10.375 7.9375V9.83333C10.375 9.97699 10.3179 10.1148 10.2164 10.2164C10.1148 10.3179 9.97699 10.375 9.83333 10.375C7.39113 10.375 5.04896 9.40484 3.32206 7.67794C1.59516 5.95104 0.625 3.60887 0.625 1.16667C0.625 1.02301 0.682068 0.885233 0.78365 0.78365C0.885233 0.682068 1.02301 0.625 1.16667 0.625H3.0625C3.20616 0.625 3.34393 0.682068 3.44552 0.78365C3.5471 0.885233 3.60417 1.02301 3.60417 1.16667C3.60417 1.84375 3.7125 2.49375 3.91292 3.10042C3.9725 3.29 3.92917 3.50125 3.7775 3.65292L2.58583 4.84458Z" fill="white"/>
             </svg>
-            <nuxt-link to="#kontak" class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Kontak Kami</nuxt-link>
-          </li>
-          <li class="lg:hidden flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
+            <p class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Kontak Kami</p>
+          </nuxt-link>
+          <nuxt-link to="/profile" class="lg:hidden flex flex-row items-center gap-3 p-4 rounded-full hover:bg-[#A52A2D] lg:p-0 lg:rounded-none lg:hover:bg-transparent">
             <svg class="lg:hidden" width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00015 0.333496C7.87563 0.333492 8.74254 0.505927 9.55138 0.840956C10.3602 1.17599 11.0952 1.66705 11.7142 2.2861C12.3333 2.90516 12.8243 3.64009 13.1594 4.44893C13.4944 5.25776 13.6668 6.12467 13.6668 7.00015C13.6668 10.6821 10.6821 13.6668 7.00015 13.6668C3.31828 13.6668 0.333496 10.6821 0.333496 7.00015C0.333496 3.31828 3.31828 0.333496 7.00015 0.333496ZM7.66684 7.66684H6.3335C4.68303 7.66684 3.26606 8.66643 2.6549 10.0933C3.6219 11.4493 5.20778 12.3335 7.00015 12.3335C8.79253 12.3335 10.3784 11.4493 11.3454 10.0932C10.7343 8.66643 9.31731 7.66684 7.66684 7.66684ZM7.00015 2.3335C5.89559 2.3335 5.00015 3.22893 5.00015 4.3335C5.00015 5.43806 5.89559 6.3335 7.00015 6.3335C8.10472 6.3335 9.00015 5.43806 9.00015 4.3335C9.00015 3.22893 8.10475 2.3335 7.00015 2.3335Z" fill="white"/>
             </svg>
-            <nuxt-link to="/profile" class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Profile</nuxt-link>
-          </li>
+            <p class="lg:hover:text-red-600 text-base lg:text-sm transition-all duration-200">Profile</p>
+          </nuxt-link>
         </ul>
       </div>
 
@@ -137,18 +162,33 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import { useRouter } from 'vue-router';
+
 
 // State
 const isScrolled = ref(false);
 const menuOpen = ref(false);
+const router = useRouter();
 
 // Methods
 const handleScroll = () => {
-  isScrolled.value = window.scrollY > 20; 
+  isScrolled.value = window.scrollY > 20;
 };
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
+};
+
+const scrollToHash = async (hash, route = '/') => {
+  if (router.currentRoute.value.path !== route) {
+    await router.push(route);
+  }
+  setTimeout(() => {
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, 100);
 };
 
 // Lifecycle Hooks
@@ -160,6 +200,7 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
 });
 </script>
+
 
 <style>
 /* Custom transitions for slide-in effect */

@@ -10,12 +10,12 @@
       class="absolute top-[90%] right-0 transform -translate-y-1/2 w-96 h-96 bg-gradient-to-bl from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
     </div>
     <div class="p-3 flex flex-col gap-0 lg:gap-52 lg:w-[32%]">
-      <h1 class="text-3xl sm:text-5xl lg:text-6xl leading-tight z-10 font-bold text-gray-800 items-start hero-text">
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl leading-tight z-10 font-bold text-gray-800 items-start hero-text" data-aos="fade-right" >
         <span class="text-[#A52A2D] italic font-semibold ">Suara</span> Anda,
         <span class="italic underline decoration-[#A52A2D] decoration-4 "><br />Perubahan</span><br /> kami.
       </h1>
 
-      <div>
+      <div data-aos="fade-up" data-aos-delay="500">
         <p class="mt-3 text-sm sm:text-xl lg:text-base">Memudahkan Anda melaporkan dan memantau kondisi fasilitas umum di sekitar Anda. Layanan publik yang berkualitas dimulai dari partisipasi aktif masyarakat dalam melaporkan permasalahan yang terjadi.</p>
         <NuxtLink to="/layanan">
           <button class="mt-4 pl-4 md:pl-5 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex md:gap-6 justify-between items-center w-[75%] md:w-auto">
@@ -33,7 +33,7 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="lg:grid gap-4 lg:grid-cols-3 mt-20 lg:mt-0 lg:w-[60%] z-10 h-auto">
+    <div class="lg:grid gap-4 lg:grid-cols-3 mt-20 lg:mt-0 lg:w-[60%] z-10 h-auto" data-aos="fade-in" data-aos-delay="400">
         <!-- Card 1 -->
         <div class="flex-wrap flex gap-2">
           <div
@@ -44,7 +44,7 @@
                 <h3 class="text-sm md:text-lg font-bold">Sejauh mana masalah sampah di Indonesia?</h3>
                 <div>
                   <button
-                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300" >
                     <span class="text-sm font-semibold lg:px-4">Telusuri</span>
                     <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
@@ -152,23 +152,23 @@
   </section>
 
   
-  <section class="flex flex-col justify-center items-center px-10 lg:py-10 mb-7 over overflow-hidden w-full">
-    <h1 class="font-bold text-2xl md:text-4xl opacity-70 mb-20" data-aos="fade-down" data-aos-duration="500">Instansi Terhubung</h1>
+  <section class="flex-col justify-center items-center px-10 lg:py-10 mb-0 md:mb-7 w-full lg:block hidden">
+    <h1 class="font-bold text-2xl md:text-4xl text-center opacity-70 mb-20" data-aos="fade-in" data-aos-duration="500">Instansi Terhubung</h1>
     
-    <div class="flex flex-row gap-3 md:gap-16 mb-10 overflow-x-scroll w-max lg:w-full">
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-96 lg:w-full" data-aos="zoom-in-right" data-aos-duration="800">
+    <div class="flex flex-row gap-3 md:gap-16 mb-10  w-full overflow-x-auto scrollable " data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
+      <div class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-96 lg:w-full" >
         <div class="border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-          <img class="" src="/assets/image/instansi1.png" alt="Instansi 1">
+          <img class="" src="/assets/image/instansi1baru.png" alt="Instansi 1">
         </div>
       </div>
 
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96 lg:w-full"  data-aos="zoom-in" data-aos-duration="800" >
+      <div class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96 lg:w-full"  >
         <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-          <img class="" src="/assets/image/instansi2.png" alt="Instansi 2">
+          <img class="" src="/assets/image/instansi2baru.png" alt="Instansi 2">
         </div>
       </div>
 
-      <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96  lg:w-full"  data-aos="zoom-in-left" data-aos-duration="800" data-aos-delay="">
+      <div class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]  w-96  lg:w-full"  >
         <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
           <img class="" src="/assets/image/instansi3.png" alt="Instansi 2">
         </div>
@@ -177,23 +177,62 @@
   </section>
 
 
+<!-- 
+  Mobile -->
+
+  <section class="lg:hidden block w-full flex-col justify-center items-center px-10 lg:py-10 mb-7 overflow-hidden">
+  <h1 class="font-bold text-2xl md:text-4xl text-center opacity-70 mb-20" data-aos="fade-in" data-aos-duration="500">
+    Instansi Terhubung
+  </h1>
+  
+  <div class="flex flex-row gap-3 md:gap-16 mb-10 w-full overflow-x-auto scrollbar-hide" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
+    <!-- Card 1 -->
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
+      <div class="border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+          <img src="/assets/image/instansi1baru.png" alt="Instansi 1" class="absolute inset-0 w-full h-full object-contain"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
+      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+          <img src="/assets/image/instansi2baru.png" alt="Instansi 2" class="absolute inset-0 w-full h-full object-contain"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
+      <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
+        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+          <img src="/assets/image/instansi3.png" alt="Instansi 3" class="absolute inset-0 w-full h-full object-contain"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   <!-- About -->
   <section id="about"
     class="px-10 py-44 items-center justify-center flex-col-reverse lg:flex lg:justify-between lg:items-start font-jakarta bg-[url('/assets/image/wave.png')] bg-no-repeat bg- bg-center flex lg:flex-row gap-10 relative">
     <!-- image kiri -->
     <div class="flex p-5 flex-row lg:flex-col gap-5">
       <div
-        class="lg:block hidden w-24 h-24 left-[28%] bottom-[73%] absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="fade-down" data-aos-duration="500" >
+        class="lg:block hidden w-24 h-24 left-[28%] bottom-[73%] absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded animate-smoothFloat" data-aos="fade-down" data-aos-duration="500" >
       </div>
       <!-- mobile muncul -->
       <div
-        class="w-28 h-28 md:w-48 md:h-48 block lg:hidden left-[28%] bottom-[73%] lg:absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="flip-right" data-aos-duration="500">
+        class="w-28 h-28 md:w-48 md:h-48 block lg:hidden left-[28%] bottom-[73%] lg:absolute bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded  animate-floatX"data-aos="fade-up-right" data-aos-duration="500" >
       </div>
-      <div class="w-28 h-28 md:w-48 md:h-48 left-[5%] bottom-[40%] lg:absolute bg-[#454955] rounded-super-rounded content-center px-4" data-aos="fade-up-right" data-aos-duration="500">
+      <div class="w-28 h-28 md:w-48 md:h-48 left-[5%] bottom-[40%] lg:absolute bg-[#454955] rounded-super-rounded content-center px-4 animate-float" data-aos="fade-up-right" data-aos-duration="500">
         <h1 class="text-white font-semibold md:text-base [font-size:_clamp(0.5rem,2.3vw,0.4rem)]">Mendukung perbaikan fasilitas demi kenyamanan dan keamanan bersama.</h1>
       </div>
       <div
-        class="w-28 h-28 md:w-48 md:h-48 left-[20%] top-[60%] lg:absolute bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded" data-aos="zoom-in" data-aos-duration="500">
+        class="w-28 h-28 md:w-48 md:h-48 left-[20%] top-[60%] lg:absolute bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded animate-floatX" data-aos="zoom-in" data-aos-duration="500">
       </div>
     </div>
 
@@ -242,12 +281,12 @@
     <!-- image kanan -->
     <div class="p-5 flex-col gap-5 lg:block hidden" >
       <div
-        class="w-48 h-48 absolute right-[18%] bottom-[60%] bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded" data-aos="zoom-in" data-aos-duration="500">
+        class="w-48 h-48 absolute right-[18%] bottom-[60%] bg-[url('assets/image/about3.png')] bg-cover bg-center rounded-super-rounded animate-float" data-aos="zoom-in" data-aos-duration="500">
       </div>
       <div
-        class="w-24 h-24 absolute right-[7%] bottom-[45%] bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+        class="w-24 h-24 absolute right-[7%] bottom-[45%] bg-[url('assets/image/about1.png')] bg-cover bg-center rounded-super-rounded animate-smoothFloat" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
       </div>
-      <div class="w-48 h-48 absolute right-[20%] top-[60%] bg-[#454955] rounded-super-rounded content-center px-4" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
+      <div class="w-48 h-48 absolute right-[20%] top-[60%] bg-[#454955] rounded-super-rounded content-center px-4 animate-floatX" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
         <h1 class="text-white font-semibold">Menghubungkan masyarakat dengan instansi terkait untuk solusi yang tepat.
         </h1>
       </div>
@@ -259,17 +298,17 @@
     class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20">
     <!-- Heading -->
     <div class="text-center mb-7 ">
-      <h1 class="text-3xl lg:text-5xl font-bold" data-aos="fade-down" data-aos-duration="500">
-        <span class="text-[#a52a2d] m">HUBUNGI</span>
+      <h1 class="text-3xl lg:text-5xl font-bold" data-aos="zoom-out" data-aos-duration="500">
+        <span class="text-[#a52a2d] m" data-aos>HUBUNGI</span>
       </h1>
-      <p class="text-black font-medium mt-6" data-aos="fade-in" data-aos-duration="500" data-aos-delay="200">
+      <p class="text-black font-medium mt-6" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
         Hubungi kami jika anda membutuhkan bantuan. Kami siap melayani anda dengan sepenuh hati
       </p>
     </div>
 
     <!-- Kontak Section -->
     <div
-      class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-20 shadow-[0px_0px_10px_rgba(0,0,0,0.1)]" data-aos="zoom-in-up" data-aos-duration="1000">
+      class="p-1 rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] mb-20 shadow-[0px_0px_10px_rgba(0,0,0,0.1)]" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
       <div class="flex flex-col lg:flex-row bg-white rounded-[calc(3rem-1.2rem)] overflow-hidden w-full max-w-7xl">
         <!-- Bagian Kontak -->
         <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white lg:max-w-sm">
@@ -320,8 +359,8 @@
 
           <!-- Social Media -->
           <p class="font-semibold text-sm mb-2">Follow our social media</p>
-          <div class="flex gap-2">
-            <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg">
+          <div class="flex gap-2" >
+            <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg z-50">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
                 <g fill="#a52a2d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -336,7 +375,7 @@
               </svg>
             </div>
 
-            <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg">
+            <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg z-50" >
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
                 <g fill="#a52a2d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -351,7 +390,7 @@
               </svg>
             </div>
 
-            <div class="p-1 bg-white text-red-600 font-bold  rounded-full shadow-lg">
+            <div class="p-1 bg-white text-red-600 font-bold  rounded-full shadow-lg z-50">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
                 <g fill="#a52a2d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                   stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -366,15 +405,15 @@
               </svg>
             </div>
           </div>
-          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-0">
-            <svg width="389" height="70" viewBox="0 0 389 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-[3%] justify-center z-0">
+            <svg width="350" height="40" viewBox="0 0 389 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.2186 11.8041C60.6839 -20.2518 135.46 23.2536 213.774 22.2125C276.203 21.3825 329.049 -11.0565 372.37 11.8041C409.787 31.5489 372.37 82 372.37 82H14.2186C14.2186 82 -17.7732 33.8749 14.2186 11.8041Z"
                 fill="#E9948F" fill-opacity="0.35" />
             </svg>
           </div>
-          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-0">
-            <svg width="389" height="109" viewBox="0 0 389 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="absolute bottom-0 left-0 md:left-[20%] lg:left-[10%] justify-center">
+            <svg width="300" height="70" viewBox="0 0 389 109" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.2186 15.6908C60.6839 -26.9201 135.46 30.9102 213.774 29.5263C276.203 28.4231 329.049 -14.6971 372.37 15.6908C409.787 41.9369 372.37 109 372.37 109H14.2186C14.2186 109 -17.7732 45.0288 14.2186 15.6908Z"
                 fill="#E9948F" fill-opacity="0.35" />
@@ -395,8 +434,8 @@
                       d="M9.99963 10.5C11.392 10.5 12.7274 9.96663 13.7119 9.01723C14.6965 8.06783 15.2496 6.78016 15.2496 5.4375C15.2496 4.09484 14.6965 2.80718 13.7119 1.85777C12.7274 0.908369 11.392 0.375 9.99963 0.375C8.60724 0.375 7.27188 0.908369 6.28732 1.85777C5.30275 2.80718 4.74963 4.09484 4.74963 5.4375C4.74963 6.78016 5.30275 8.06783 6.28732 9.01723C7.27188 9.96663 8.60724 10.5 9.99963 10.5ZM18.2859 20.625C19.3674 20.625 20.1986 19.6783 19.8119 18.7029C19.0532 16.7861 17.7087 15.1366 15.9564 13.9728C14.204 12.8091 12.1265 12.186 9.99875 12.186C7.87103 12.186 5.79348 12.8091 4.04113 13.9728C2.28879 15.1366 0.944289 16.7861 0.185625 18.7029C-0.199375 19.6783 0.630125 20.625 1.71163 20.625H18.2859Z"
                       fill="#A52A2D" />
                   </svg>
-                  <input type="text" placeholder="Nama Lengkap"
-                    class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
+                  <input type="text" placeholder="Nama Lengkap" 
+                    class="w-full border-none focus:outline-none  bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
               <!-- Input Perusahaan -->
@@ -565,6 +604,16 @@
 .shadow-custom {
   box-shadow: -5px -5px 1px rgba(165, 42, 45, 0.8), 5px 5px 1px rgba(165, 42, 45, 0.7);
 }
+/* Hide scrollbar but keep scrollable functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+} 
 </style>
 <script setup>
+
 </script>

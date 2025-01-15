@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 font-jakarta">
+  <section class="pt-16 font-jakarta">
     <div class="flex flex-col-reverse lg:flex-row" id="app">
       <Sidebar />
       <!-- Main Content -->
@@ -126,7 +126,193 @@
               Saya ingin melaporkan adanya jalan berlubang di Jalan Raya Utama, Kecamatan X, Kota Y. Lubang tersebut berukuran 1 meter x 1 meter dan berkedalaman 30 cm, membahayakan pengemudi dan pejalan kaki. Saya melampirkan foto sebagai bukti kerusakan tersebut. Mohon perbaikan secepatnya untuk menghindari kecelakaan dan kenyamanan pengguna jalan.
             </p>
             <img alt="Bus emitting smoke" class="w-[70%] rounded-super-rounded mb-2 mt-3 "
-              src="./../assets/image/lobang.png" />
+              src="./../assets/image/download (1) (1).jpeg" />
+          </div>
+          <div class="flex items-center text-gray-500 text-sm gap-2 ml-12">
+            <svg width="15" height="15" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22 9C22 8.46957 21.7893 7.96086 21.4142 7.58579C21.0391 7.21071 20.5304 7 20 7H13.68L14.64 2.43C14.66 2.33 14.67 2.22 14.67 2.11C14.67 1.7 14.5 1.32 14.23 1.05L13.17 0L6.59 6.58C6.22 6.95 6 7.45 6 8V18C6 18.5304 6.21071 19.0391 6.58579 19.4142C6.96086 19.7893 7.46957 20 8 20H17C17.83 20 18.54 19.5 18.84 18.78L21.86 11.73C21.95 11.5 22 11.26 22 11V9ZM0 20H4V8H0V20Z"
+                fill="#A52A2D" />
+            </svg>
+            <span class=" text-[#a52a2d] font-semibold mr-1">
+              54
+            </span>
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M10 -0.000953078C4.477 -0.000953078 1.65574e-06 4.47605 1.65574e-06 9.99905C-0.000846144 11.4724 0.323896 12.9278 0.951002 14.261L0.0210016 18.798C-0.0121094 18.96 -0.00453626 19.1277 0.0430431 19.2861C0.0906225 19.4444 0.176723 19.5885 0.293638 19.7054C0.410553 19.8223 0.554634 19.9084 0.712983 19.956C0.871332 20.0036 1.03901 20.0112 1.201 19.978L5.738 19.048C7.032 19.658 8.478 19.998 10 19.998C15.523 19.998 20 15.522 20 9.99805C20 4.47605 15.523 -0.00195312 10 -0.00195312"
+                fill="#A52A2D" />
+            </svg>
+            <span class="text-[#a52a2d] font-semibold mr-1">
+              32
+            </span>
+            <svg width="16" height="15" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 9.33333L14.6667 0V5.33333C5.33333 6.66667 1.33333 13.3333 0 20C3.33333 15.3333 8 13.2 14.6667 13.2V18.6667L24 9.33333Z"
+                fill="#A52A2D" />
+            </svg>
+            <span class="text-[#a52a2d] font-semibold">
+              19
+            </span>
+          </div>
+          <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
+            <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
+            <div class="ml-4 flex-grow">
+              <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
+                type="text" />
+              <div class="justify-between flex items-center mt-2">
+                <div class="flex gap-2">
+                  <svg width="15" height="15" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.5 4.5C12.5 2.567 10.933 1 9 1C7.067 1 5.5 2.567 5.5 4.5V11C5.5 12.933 7.067 14.5 9 14.5C10.933 14.5 12.5 12.933 12.5 11V4.5Z"
+                      fill="#A52A2D" stroke="#A52A2D" stroke-width="2" stroke-linejoin="round" />
+                    <path d="M1.5 10.5C1.5 14.642 4.858 18 9 18M9 18C13.142 18 16.5 14.642 16.5 10.5M9 18V21"
+                      stroke="#A52A2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 2.85714C0 1.28125 1.12109 0 2.5 0H17.5C18.8789 0 20 1.28125 20 2.85714V17.1429C20 18.7188 18.8789 20 17.5 20H2.5C1.12109 20 0 18.7188 0 17.1429V2.85714ZM12.6484 7.61161C12.4727 7.31696 12.1836 7.14286 11.875 7.14286C11.5664 7.14286 11.2734 7.31696 11.1016 7.61161L7.70312 13.308L6.66797 11.8304C6.48828 11.5759 6.21875 11.4286 5.9375 11.4286C5.65625 11.4286 5.38281 11.5759 5.20703 11.8304L2.70703 15.4018C2.48047 15.7232 2.4375 16.1652 2.59375 16.5357C2.75 16.9062 3.07812 17.1429 3.4375 17.1429H16.5625C16.9102 17.1429 17.2305 16.9241 17.3906 16.5714C17.5508 16.2188 17.5312 15.7946 17.3359 15.4688L12.6484 7.61161ZM4.375 7.14286C4.87228 7.14286 5.34919 6.91709 5.70083 6.51523C6.05246 6.11337 6.25 5.56832 6.25 5C6.25 4.43168 6.05246 3.88664 5.70083 3.48477C5.34919 3.08291 4.87228 2.85714 4.375 2.85714C3.87772 2.85714 3.40081 3.08291 3.04917 3.48477C2.69754 3.88664 2.5 4.43168 2.5 5C2.5 5.56832 2.69754 6.11337 3.04917 6.51523C3.40081 6.91709 3.87772 7.14286 4.375 7.14286Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="16" height="16" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.4998 0.916504C5.20025 0.916504 0.916504 5.229 0.916504 10.4998C0.916504 13.0415 1.92617 15.4791 3.7234 17.2763C4.61329 18.1662 5.66975 18.8721 6.83245 19.3537C7.99516 19.8353 9.24134 20.0832 10.4998 20.0832C13.0415 20.0832 15.4791 19.0735 17.2763 17.2763C19.0735 15.4791 20.0832 13.0415 20.0832 10.4998C20.0832 9.24134 19.8353 7.99516 19.3537 6.83245C18.8721 5.66975 18.1662 4.61329 17.2763 3.7234C16.3864 2.8335 15.3299 2.1276 14.1672 1.64599C13.0045 1.16438 11.7583 0.916504 10.4998 0.916504ZM13.854 6.6665C14.2353 6.6665 14.6009 6.81795 14.8705 7.08754C15.1401 7.35712 15.2915 7.72276 15.2915 8.104C15.2915 8.48525 15.1401 8.85089 14.8705 9.12047C14.6009 9.39005 14.2353 9.5415 13.854 9.5415C13.4728 9.5415 13.1071 9.39005 12.8375 9.12047C12.568 8.85089 12.4165 8.48525 12.4165 8.104C12.4165 7.72276 12.568 7.35712 12.8375 7.08754C13.1071 6.81795 13.4728 6.6665 13.854 6.6665ZM7.14567 6.6665C7.52692 6.6665 7.89255 6.81795 8.16214 7.08754C8.43172 7.35712 8.58317 7.72276 8.58317 8.104C8.58317 8.48525 8.43172 8.85089 8.16214 9.12047C7.89255 9.39005 7.52692 9.5415 7.14567 9.5415C6.76442 9.5415 6.39879 9.39005 6.1292 9.12047C5.85962 8.85089 5.70817 8.48525 5.70817 8.104C5.70817 7.72276 5.85962 7.35712 6.1292 7.08754C6.39879 6.81795 6.76442 6.6665 7.14567 6.6665ZM10.4998 15.7707C8.26692 15.7707 6.36942 14.3715 5.60275 12.4165H15.3969C14.6207 14.3715 12.7328 15.7707 10.4998 15.7707Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2.2 18C1.595 18 1.07727 17.7799 0.6468 17.3396C0.216333 16.8994 0.000733333 16.3695 0 15.75V2.25C0 1.63125 0.2156 1.10175 0.6468 0.6615C1.078 0.22125 1.59573 0.00075 2.2 0H8.8L11 2.25H19.8C20.405 2.25 20.9231 2.4705 21.3543 2.9115C21.7855 3.3525 22.0007 3.882 22 4.5V15.75C22 16.3687 21.7848 16.8986 21.3543 17.3396C20.9238 17.7806 20.4057 18.0007 19.8 18H2.2Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.5 10.9375C7.75408 10.9375 7.03871 10.6412 6.51126 10.1137C5.98382 9.58629 5.6875 8.87092 5.6875 8.125C5.6875 7.37908 5.98382 6.66371 6.51126 6.13626C7.03871 5.60882 7.75408 5.3125 8.5 5.3125C9.24592 5.3125 9.96129 5.60882 10.4887 6.13626C11.0162 6.66371 11.3125 7.37908 11.3125 8.125C11.3125 8.49434 11.2398 8.86007 11.0984 9.2013C10.9571 9.54253 10.7499 9.85257 10.4887 10.1137C10.2276 10.3749 9.91753 10.5821 9.5763 10.7234C9.23507 10.8648 8.86934 10.9375 8.5 10.9375ZM8.5 0.25C6.41142 0.25 4.40838 1.07969 2.93153 2.55653C1.45469 4.03338 0.625 6.03642 0.625 8.125C0.625 14.0312 8.5 22.75 8.5 22.75C8.5 22.75 16.375 14.0312 16.375 8.125C16.375 6.03642 15.5453 4.03338 14.0685 2.55653C12.5916 1.07969 10.5886 0.25 8.5 0.25Z"
+                      fill="#A52A2D" />
+                  </svg>
+                </div>
+                <button class="bg-[#454955] text-white px-4 md:px-8 py-1 md:py-2 text-[0.4rem] md:text-sm font-semibold rounded-full ml-auto lg:mt-2">
+                  Posting
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-3 rounded-super-rounded shadow mb-4 w-full relative">
+          <div class="flex items-center mb-2 relative">
+            <img alt="User profile picture" class="rounded-full mr-2" height="40" src="../assets/image/mbak.png"
+              width="40" />
+            <div class="absolute w-7 h-7 rounded-full ml-4 mt-7">
+              <img  src="../assets/image/Shin Hye-sun.png" alt="Gambar Kecil"
+                class="object-cover border-2 border-white rounded-full">
+            </div>
+            <div class="flex">
+              <div class="font-bold justify-between ">
+                Swarakan!
+                <div class="text-gray-500 text-sm font-medium">
+                  @moriarty • 56 menit yang lalu
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="ml-12">
+            <p class="mb-2 leading-tight">
+              Kami, warga Anjasmoro, ingin melaporkan bahwa wilayah kami mengalami banjir yang diduga disebabkan oleh tumpukan sampah yang menyumbat aliran air di saluran drainase. Sampah yang menumpuk ini terdiri dari plastik, limbah rumah tangga, dan material lainnya yang tidak terkelola dengan baik.
+            </p>
+            <img alt="Bus emitting smoke" class="w-[70%] rounded-super-rounded mb-2 mt-3 "
+              src="./../assets/image/banjir (1).jpeg" />
+          </div>
+          <div class="flex items-center text-gray-500 text-sm gap-2 ml-12">
+            <svg width="15" height="15" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22 9C22 8.46957 21.7893 7.96086 21.4142 7.58579C21.0391 7.21071 20.5304 7 20 7H13.68L14.64 2.43C14.66 2.33 14.67 2.22 14.67 2.11C14.67 1.7 14.5 1.32 14.23 1.05L13.17 0L6.59 6.58C6.22 6.95 6 7.45 6 8V18C6 18.5304 6.21071 19.0391 6.58579 19.4142C6.96086 19.7893 7.46957 20 8 20H17C17.83 20 18.54 19.5 18.84 18.78L21.86 11.73C21.95 11.5 22 11.26 22 11V9ZM0 20H4V8H0V20Z"
+                fill="#A52A2D" />
+            </svg>
+            <span class=" text-[#a52a2d] font-semibold mr-1">
+              54
+            </span>
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M10 -0.000953078C4.477 -0.000953078 1.65574e-06 4.47605 1.65574e-06 9.99905C-0.000846144 11.4724 0.323896 12.9278 0.951002 14.261L0.0210016 18.798C-0.0121094 18.96 -0.00453626 19.1277 0.0430431 19.2861C0.0906225 19.4444 0.176723 19.5885 0.293638 19.7054C0.410553 19.8223 0.554634 19.9084 0.712983 19.956C0.871332 20.0036 1.03901 20.0112 1.201 19.978L5.738 19.048C7.032 19.658 8.478 19.998 10 19.998C15.523 19.998 20 15.522 20 9.99805C20 4.47605 15.523 -0.00195312 10 -0.00195312"
+                fill="#A52A2D" />
+            </svg>
+            <span class="text-[#a52a2d] font-semibold mr-1">
+              32
+            </span>
+            <svg width="16" height="15" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 9.33333L14.6667 0V5.33333C5.33333 6.66667 1.33333 13.3333 0 20C3.33333 15.3333 8 13.2 14.6667 13.2V18.6667L24 9.33333Z"
+                fill="#A52A2D" />
+            </svg>
+            <span class="text-[#a52a2d] font-semibold">
+              19
+            </span>
+          </div>
+          <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
+            <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
+            <div class="ml-4 flex-grow">
+              <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
+                type="text" />
+              <div class="justify-between flex items-center mt-2">
+                <div class="flex gap-2">
+                  <svg width="15" height="15" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.5 4.5C12.5 2.567 10.933 1 9 1C7.067 1 5.5 2.567 5.5 4.5V11C5.5 12.933 7.067 14.5 9 14.5C10.933 14.5 12.5 12.933 12.5 11V4.5Z"
+                      fill="#A52A2D" stroke="#A52A2D" stroke-width="2" stroke-linejoin="round" />
+                    <path d="M1.5 10.5C1.5 14.642 4.858 18 9 18M9 18C13.142 18 16.5 14.642 16.5 10.5M9 18V21"
+                      stroke="#A52A2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 2.85714C0 1.28125 1.12109 0 2.5 0H17.5C18.8789 0 20 1.28125 20 2.85714V17.1429C20 18.7188 18.8789 20 17.5 20H2.5C1.12109 20 0 18.7188 0 17.1429V2.85714ZM12.6484 7.61161C12.4727 7.31696 12.1836 7.14286 11.875 7.14286C11.5664 7.14286 11.2734 7.31696 11.1016 7.61161L7.70312 13.308L6.66797 11.8304C6.48828 11.5759 6.21875 11.4286 5.9375 11.4286C5.65625 11.4286 5.38281 11.5759 5.20703 11.8304L2.70703 15.4018C2.48047 15.7232 2.4375 16.1652 2.59375 16.5357C2.75 16.9062 3.07812 17.1429 3.4375 17.1429H16.5625C16.9102 17.1429 17.2305 16.9241 17.3906 16.5714C17.5508 16.2188 17.5312 15.7946 17.3359 15.4688L12.6484 7.61161ZM4.375 7.14286C4.87228 7.14286 5.34919 6.91709 5.70083 6.51523C6.05246 6.11337 6.25 5.56832 6.25 5C6.25 4.43168 6.05246 3.88664 5.70083 3.48477C5.34919 3.08291 4.87228 2.85714 4.375 2.85714C3.87772 2.85714 3.40081 3.08291 3.04917 3.48477C2.69754 3.88664 2.5 4.43168 2.5 5C2.5 5.56832 2.69754 6.11337 3.04917 6.51523C3.40081 6.91709 3.87772 7.14286 4.375 7.14286Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="16" height="16" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.4998 0.916504C5.20025 0.916504 0.916504 5.229 0.916504 10.4998C0.916504 13.0415 1.92617 15.4791 3.7234 17.2763C4.61329 18.1662 5.66975 18.8721 6.83245 19.3537C7.99516 19.8353 9.24134 20.0832 10.4998 20.0832C13.0415 20.0832 15.4791 19.0735 17.2763 17.2763C19.0735 15.4791 20.0832 13.0415 20.0832 10.4998C20.0832 9.24134 19.8353 7.99516 19.3537 6.83245C18.8721 5.66975 18.1662 4.61329 17.2763 3.7234C16.3864 2.8335 15.3299 2.1276 14.1672 1.64599C13.0045 1.16438 11.7583 0.916504 10.4998 0.916504ZM13.854 6.6665C14.2353 6.6665 14.6009 6.81795 14.8705 7.08754C15.1401 7.35712 15.2915 7.72276 15.2915 8.104C15.2915 8.48525 15.1401 8.85089 14.8705 9.12047C14.6009 9.39005 14.2353 9.5415 13.854 9.5415C13.4728 9.5415 13.1071 9.39005 12.8375 9.12047C12.568 8.85089 12.4165 8.48525 12.4165 8.104C12.4165 7.72276 12.568 7.35712 12.8375 7.08754C13.1071 6.81795 13.4728 6.6665 13.854 6.6665ZM7.14567 6.6665C7.52692 6.6665 7.89255 6.81795 8.16214 7.08754C8.43172 7.35712 8.58317 7.72276 8.58317 8.104C8.58317 8.48525 8.43172 8.85089 8.16214 9.12047C7.89255 9.39005 7.52692 9.5415 7.14567 9.5415C6.76442 9.5415 6.39879 9.39005 6.1292 9.12047C5.85962 8.85089 5.70817 8.48525 5.70817 8.104C5.70817 7.72276 5.85962 7.35712 6.1292 7.08754C6.39879 6.81795 6.76442 6.6665 7.14567 6.6665ZM10.4998 15.7707C8.26692 15.7707 6.36942 14.3715 5.60275 12.4165H15.3969C14.6207 14.3715 12.7328 15.7707 10.4998 15.7707Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2.2 18C1.595 18 1.07727 17.7799 0.6468 17.3396C0.216333 16.8994 0.000733333 16.3695 0 15.75V2.25C0 1.63125 0.2156 1.10175 0.6468 0.6615C1.078 0.22125 1.59573 0.00075 2.2 0H8.8L11 2.25H19.8C20.405 2.25 20.9231 2.4705 21.3543 2.9115C21.7855 3.3525 22.0007 3.882 22 4.5V15.75C22 16.3687 21.7848 16.8986 21.3543 17.3396C20.9238 17.7806 20.4057 18.0007 19.8 18H2.2Z"
+                      fill="#A52A2D" />
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.5 10.9375C7.75408 10.9375 7.03871 10.6412 6.51126 10.1137C5.98382 9.58629 5.6875 8.87092 5.6875 8.125C5.6875 7.37908 5.98382 6.66371 6.51126 6.13626C7.03871 5.60882 7.75408 5.3125 8.5 5.3125C9.24592 5.3125 9.96129 5.60882 10.4887 6.13626C11.0162 6.66371 11.3125 7.37908 11.3125 8.125C11.3125 8.49434 11.2398 8.86007 11.0984 9.2013C10.9571 9.54253 10.7499 9.85257 10.4887 10.1137C10.2276 10.3749 9.91753 10.5821 9.5763 10.7234C9.23507 10.8648 8.86934 10.9375 8.5 10.9375ZM8.5 0.25C6.41142 0.25 4.40838 1.07969 2.93153 2.55653C1.45469 4.03338 0.625 6.03642 0.625 8.125C0.625 14.0312 8.5 22.75 8.5 22.75C8.5 22.75 16.375 14.0312 16.375 8.125C16.375 6.03642 15.5453 4.03338 14.0685 2.55653C12.5916 1.07969 10.5886 0.25 8.5 0.25Z"
+                      fill="#A52A2D" />
+                  </svg>
+                </div>
+                <button class="bg-[#454955] text-white px-4 md:px-8 py-1 md:py-2 text-[0.4rem] md:text-sm font-semibold rounded-full ml-auto lg:mt-2">
+                  Posting
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-3 rounded-super-rounded shadow mb-4 w-full relative">
+          <div class="flex items-center mb-2 relative">
+            <img alt="User profile picture" class="rounded-full mr-2" height="40" src="../assets/image/mbak.png"
+              width="40" />
+            <div class="absolute w-7 h-7 rounded-full ml-4 mt-7">
+              <img  src="../assets/image/Shin Hye-sun.png" alt="Gambar Kecil"
+                class="object-cover border-2 border-white rounded-full">
+            </div>
+            <div class="flex">
+              <div class="font-bold justify-between ">
+                Swarakan!
+                <div class="text-gray-500 text-sm font-medium">
+                  @moriarty • 56 menit yang lalu
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="ml-12">
+            <p class="mb-2 leading-tight">
+              Lampu Lalu Lintas Mati di Persimpangan Utama, Kemacetan Tak Terhindarkan
+            </p>
+            <img alt="Bus emitting smoke" class="w-[70%] rounded-super-rounded mb-2 mt-3 "
+              src="./../assets/image/lampu (1).jpg" />
           </div>
           <div class="flex items-center text-gray-500 text-sm gap-2 ml-12">
             <svg width="15" height="15" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -332,8 +518,8 @@
 
 <style>
 .scrollable {
-  max-height: 100vh;
-  overflow-y: auto;
+  max-height: 200vh;
+  overflow-x: auto;
   scrollbar-width: none;
 }
 </style>

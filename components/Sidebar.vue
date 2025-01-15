@@ -12,7 +12,7 @@
       <!-- Navigation Menu -->
       <nav class="flex flex-row lg:flex-col gap-6 items-center">
         <!-- Icon 1 -->
-        <a class="text-red-500" href="#">
+        <a class="text-red-500" href="/">
           <svg class="w-8 h-8 md:w-12 md:h-12 lg:w-8 lg:h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
             <g fill="#a52a2d" fill-rule="nonzero">
               <g transform="scale(5.33333,5.33333)">
@@ -41,8 +41,8 @@
         </nuxt-link>
 
         <a href="/chat" class="text-[#A52A2D] block lg:hidden">
-          <svg class="w-8 h-8 md:w-12 md:h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          <svg class="w-8 h-8 md:w-12 md:h-12 lg:w-8 lg:h-8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.5 4V12C14.5 12.2652 14.3947 12.5196 14.2071 12.7071C14.0196 12.8946 13.7652 13 13.5 13H5.18752L3.15002 14.76L3.14439 14.7644C2.96439 14.9169 2.73597 15.0004 2.50002 15C2.35331 14.9997 2.20845 14.9673 2.07564 14.905C1.9029 14.8254 1.75674 14.6977 1.65466 14.5372C1.55257 14.3767 1.49889 14.1902 1.50002 14V4C1.50002 3.73478 1.60537 3.48043 1.79291 3.29289C1.98045 3.10536 2.2348 3 2.50002 3H13.5C13.7652 3 14.0196 3.10536 14.2071 3.29289C14.3947 3.48043 14.5 3.73478 14.5 4Z" fill="#A52A2D"/>
           </svg>
         </a>
       </nav>

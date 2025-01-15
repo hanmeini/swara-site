@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 font-jakarta h-screen">
+    <section class="py-16 px-0 md:px-20 lg:px-52 font-jakarta h-screen">
         <div class="flex flex-col-reverse xl:flex-row" id="app">
             <Sidebar />
             <!-- Main Content -->
@@ -19,8 +19,11 @@
 
                 <!-- Tombol Ganti Warna -->
                 <div class="absolute top-4 right-4 z-50 space-y-2">
-                <button @click="toggleColorPicker" class="bg-white text-white rounded-full h-10 w-10 border-2 border-white">
-                    <i class="fas fa-camera"></i>
+                <button @click="toggleColorPicker" class="bg-white rounded-full h-10 w-10 border-2 items-center justify-center flex border-white">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.5" d="M20.8489 8.71307C21.214 8.34787 21.5037 7.91432 21.7013 7.43718C21.8989 6.96004 22.0005 6.44865 22.0005 5.93222C22.0004 5.41579 21.8987 4.90442 21.701 4.42732C21.5033 3.95021 21.2136 3.51671 20.8484 3.15157C20.4832 2.78643 20.0496 2.4968 19.5725 2.29921C19.0954 2.10163 18.584 1.99995 18.0675 2C17.0246 2.00009 16.0243 2.41451 15.2869 3.15207L14.3999 4.03907L14.4379 4.15007C14.8752 5.40095 15.5908 6.53617 16.5309 7.47007C17.4926 8.43776 18.6672 9.16718 19.9609 9.60007L20.8489 8.71307Z" fill="black"/>
+                    <path d="M14.4391 4L14.4001 4.038L14.4381 4.15C14.8754 5.40087 15.5911 6.53609 16.5311 7.47C17.4928 8.43768 18.6674 9.1671 19.9611 9.6L11.4011 18.16C10.8231 18.737 10.5341 19.026 10.2161 19.274C9.84061 19.5663 9.43458 19.8171 9.00513 20.022C8.64113 20.196 8.25413 20.325 7.47913 20.583L3.39613 21.944C3.20929 22.0066 3.0087 22.0158 2.81689 21.9707C2.62508 21.9256 2.44964 21.828 2.31026 21.6887C2.17088 21.5494 2.07308 21.374 2.02783 21.1823C1.98259 20.9905 1.9917 20.7899 2.05413 20.603L3.41613 16.519C3.67413 15.745 3.80313 15.358 3.97613 14.994C4.18213 14.5633 4.4318 14.1593 4.72513 13.782C4.97313 13.464 5.26213 13.176 5.83913 12.599L14.4391 4Z" fill="black"/>
+                    </svg>
                 </button>
 
                 <!-- Color Picker Container -->
