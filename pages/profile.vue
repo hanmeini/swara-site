@@ -80,7 +80,7 @@
                     class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full">
                     <div class="bg-white p-4 xl:p-10 rounded-[calc(3rem-1.2rem)] w-full relative">
                         <button
-                            class="absolute top-4 right-4 bg-white border-2 border-[#A52A2D] rounded-full px-4 py-2 font-medium text-xs xl:text-base">Edit
+                            class="absolute top-4 right-4 bg-white border-2 border-[#A52A2D] rounded-full px-4 py-2 font-semibold text-[#a52a2d] text-xs xl:text-base">Edit
                             Profile</button>
                         <div class="flex flex-col mb-7">
                             <h1 class="font-bold [font-size:_clamp(1rem,4vw,2rem)]">Keynatasha Zahra</h1>
@@ -167,7 +167,7 @@
                                 src="../assets/image/chaeyeon.png" />
                             <div class="ml-4 flex-grow">
                                 <input
-                                    class="w-[100%] xl:w-full [font-size:_clamp(0.2rem,3vw,2rem)] rounded pb-2 focus:outline-none"
+                                    class="w-[100%] xl:w-full [font-size:_clamp(0.2rem,3vw,1rem)] border-none rounded pb-2 focus:outline-none focus:ring-0"
                                     placeholder="Ketikkan komentar..." type="text" />
                                 <div class="justify-between flex items-center mt-3">
                                     <div class="flex gap-2">
@@ -208,7 +208,7 @@
                                         </svg>
                                     </div>
                                     <button
-                                        class="bg-[#454955] text-white px-4 py-1 xl:px-8 xl:py-2 [font-size:_clamp(0.1rem,2vw,2rem)] font-semibold rounded-full ml-auto">
+                                        class="bg-[#454955] text-white px-4 py-1 xl:px-8 xl:py-2 [font-size:_clamp(0.1rem,2vw,1rem)] font-semibold rounded-full ml-auto">
                                         Posting
                                     </button>
                                 </div>
