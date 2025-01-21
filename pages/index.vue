@@ -119,7 +119,7 @@
             <div class="w-full h-full bg-[url('/assets/image/card5.png')] bg-center bg-cover  flex items-start">
               <div class="w-full h-full flex flex-col justify-center gap-1 items-start text-white px-6">
                 <div>
-                  <p class="mt-2 text-base font-semibold ">Lorem ipsum <br>dolor sit amet <br> conse.</p>
+                  <p class="mt-2 text-base font-semibold ">Laporkan <br>menuju Jawa <br> Tengah hebat.</p>
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@
     <!-- Card 1 -->
     <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
       <div class="border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+        <div class="relative w-full aspect-[16/9]">
           <img src="/assets/image/instansi1baru.png" alt="Instansi 1" class="absolute inset-0 w-full h-full object-contain"/>
         </div>
       </div>
@@ -198,7 +198,7 @@
     <!-- Card 2 -->
     <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
       <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+        <div class="relative w-full aspect-[16/9]"> 
           <img src="/assets/image/instansi2baru.png" alt="Instansi 2" class="absolute inset-0 w-full h-full object-contain"/>
         </div>
       </div>
@@ -207,7 +207,7 @@
     <!-- Card 3 -->
     <div class="p-1 shadow-lg rounded-super-rounded bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-80 flex-shrink-0">
       <div class="w-full border-1 p-5 rounded-[calc(3rem-1.2rem)] bg-white flex justify-center items-center">
-        <div class="relative w-full aspect-[16/9]"> <!-- Set aspect ratio -->
+        <div class="relative w-full aspect-[16/9]">
           <img src="/assets/image/instansi3.png" alt="Instansi 3" class="absolute inset-0 w-full h-full object-contain"/>
         </div>
       </div>
@@ -297,11 +297,11 @@
   <section id="kontak"
     class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20">
     <!-- Heading -->
-    <div class="text-center mb-7 ">
+    <div class="text-center mb-7 justify-center items-center">
       <h1 class="text-3xl lg:text-5xl font-bold" data-aos="zoom-out" data-aos-duration="500">
         <span class="text-[#a52a2d] m" data-aos>HUBUNGI</span>
       </h1>
-      <p class="text-black font-medium mt-6" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
+      <p class="text-black items-center md:text-lg font-medium mt-6" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
         Hubungi kami jika anda membutuhkan bantuan. Kami siap melayani anda dengan sepenuh hati
       </p>
     </div>
@@ -314,7 +314,7 @@
         <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white lg:max-w-sm">
           <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
           <p class="text-sm mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+            Ada pertanyaan atau butuh bantuan? Kami di sini untuk membantu! Jangan ragu untuk menghubungi kami melalui saluran berikut:
           </p>
           <!-- Informasi Kontak -->
           <div class="flex items-center gap-3 mb-4 ">
@@ -518,7 +518,7 @@
         <div class="p-1 rounded-full bg-gradient-to-br from-[#A52A2D] w-[80] lg:w-full via-white to-[#A52A2D] mb-6">
           <form class="bg-white h-12 border-none focus:outline-none w-full rounded-full flex justify-between items-center" action="">
             <input class="border-none focus:outline-none rounded-full h-12 text-center md:text-left px-4 placeholder:text-xs lg:placeholder:text-base placeholder:text-gray-400 w-full md:w-auto flex-1" type="text" placeholder="Ketikan pesan">
-            <button class="bg-[#A52A2D] text-white rounded-full px-4 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.5rem,1vw,0.8rem)]">
+            <button class="bg-[#A52A2D] text-white rounded-full px-2 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.7rem,1vw,0.8rem)]">
               Kirim Pesan
             </button>
           </form>
