@@ -78,7 +78,7 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Nama Lengkap"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none focus:ring-0 border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
@@ -91,7 +91,7 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Email"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none focus:ring-0  bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
@@ -104,7 +104,7 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Password"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none focus:ring-0  bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
@@ -117,10 +117,10 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Konfirmasi Password"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none border-none focus:ring-0  bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
-            <button class="bg-[#A52A2D] p-2 rounded-full w-[50%] md:w-[30%] shadow-xl text-white font-semibold mb-5">
+            <button class="bg-[#A52A2D] p-2 rounded-full w-[50%] md:w-[30%] shadow-xl text-white hover:bg-red-700 transition-all duration-200 font-semibold mb-5">
                 Daftar
             </button>
             <a class="font-medium" href="/signin">Sudah punya akun? <span class="text-[#A52A2D]">Masuk</span></a>

@@ -208,7 +208,7 @@
                                         </svg>
                                     </div>
                                     <button
-                                        class="bg-[#454955] text-white px-4 py-1 xl:px-8 xl:py-2 [font-size:_clamp(0.1rem,2vw,1rem)] font-semibold rounded-full ml-auto">
+                                        class="bg-[#454955] text-white px-4 py-1 xl:px-8 xl:py-2 [font-size:_clamp(0.1rem,2vw,1rem)] font-semibold rounded-full ml-auto hover:bg-gray-600 transition-all duration-300">
                                         Posting
                                     </button>
                                 </div>

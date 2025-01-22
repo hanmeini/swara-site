@@ -3,7 +3,7 @@
     <div class="flex flex-col-reverse lg:flex-row" id="app">
       <Sidebar />
       <!-- Main Content -->
-      <div class="flex-1  p-4 scrollable border-box" >
+      <div class="flex-1  p-4 scrollable-content " >
         <!-- Post 1 -->
         <div class="bg-white p-3 rounded-super-rounded shadow mb-4 w-full relative">
           <div class="flex items-center mb-2">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="ml-12">
-            <p class="mb-2  leading-tight">
+            <p class="mb-2 leading-tight">
               Mohon perhatian untuk armada BRT yang beroperasi. Kami mendapati bahwa salah satu bus mengeluarkan asap
               tebal saat beroperasi. Kondisi ini tidak hanya mengganggu kenyamanan penumpang dan pengguna jalan lain,
               tetapi juga mencemari lingkungan dan berpotensi merusak kesehatan. Kami berharap pihak pengelola segera
@@ -517,10 +517,10 @@
 </template>
 
 <style>
-.scrollable {
-  max-height: 200vh;
-  overflow-x: auto;
-  scrollbar-width: none;
+.scrollable-content {
+    max-height: 100%; /* Tinggi maksimum elemen */
+    overflow-y: auto; /* Menambahkan scroll hanya pada sumbu vertikal */
+    /* Opsional: Tambahkan padding untuk estetika */
 }
 </style>
 

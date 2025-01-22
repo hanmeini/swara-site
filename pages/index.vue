@@ -11,14 +11,14 @@
     </div>
     <div class="p-3 flex flex-col gap-0 lg:gap-52 lg:w-[32%]">
       <h1 class="text-3xl sm:text-5xl lg:text-6xl leading-tight z-10 font-bold text-gray-800 items-start hero-text" data-aos="fade-right" >
-        <span class="text-[#A52A2D] italic font-semibold ">Suara</span> Anda,
+        <span class="text-[#A52A2D] italic font-semibold ">Swara</span> Anda,
         <span class="italic underline decoration-[#A52A2D] decoration-4 "><br />Perubahan</span><br /> kami.
       </h1>
 
       <div data-aos="fade-up" data-aos-delay="500">
         <p class="mt-3 text-sm sm:text-xl lg:text-base">Memudahkan Anda melaporkan dan memantau kondisi fasilitas umum di sekitar Anda. Layanan publik yang berkualitas dimulai dari partisipasi aktif masyarakat dalam melaporkan permasalahan yang terjadi.</p>
         <NuxtLink to="/layanan">
-          <button class="mt-4 pl-4 md:pl-5 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex md:gap-6 justify-between items-center w-[75%] md:w-auto">
+          <button class="mt-4 pl-4 md:pl-5 px-2 md:px-2 py-1 bg-gray-800 text-white rounded-full flex md:gap-6 justify-between items-center w-[75%] md:w-auto hover:bg-gray-700 duration-200 transition-all ">
             <span class="text-sm font-semibold [font-size:_clamp(0.1rem,3vw,1rem)]">Sampaikan Keluhanmu</span>
             <div
               class="w-10 h-10 bg-[#A52A2D] rounded-full flex items-center justify-center transition-transform duration-300 translate-x-1">
@@ -38,14 +38,14 @@
         <div class="flex-wrap flex gap-2">
           <div
             class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 w-[48%] lg:w-full h-50 lg:h-[70%] mb-6">
-            <div class="w-full h-full bg-[url('/assets/image/card1.png')] bg-center flex items-start">
+            <div class="w-full h-full bg-[url('/assets/image/card1.png')]  bg-center flex items-start">
               <div
-                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-44 items-start text-white p-4 lg:px-6 inset-0 bg-gradient-to-t from-black/30 to-black/30">
-                <h3 class="text-sm md:text-lg font-bold">Sejauh mana masalah sampah di Indonesia?</h3>
+                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-44  items-start text-white p-4 lg:px-6 inset-0 bg-gradient-to-t from-black/30 to-black/30">
+                <h3 class="text-sm md:text-lg font-bold ">Sejauh mana masalah sampah di Indonesia?</h3>
                 <div>
                   <button
-                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300" >
-                    <span class="text-sm font-semibold lg:px-4">Telusuri</span>
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 hover:backdrop-blur-3xl transition-all md:gap-5 items-center group-hover:transition duration-20  0" >
+                    <span class="text-sm font-semibold lg:px-4 ">Telusuri</span>
                     <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -90,12 +90,12 @@
             class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-end bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[70%] mb-6 ">
             <div class="w-full h-full bg-[url('/assets/image/card2.png')] bg-center bg-cover flex items-start ">
               <div
-                class="w-full h-full flex flex-col justify-end items-start text-white p-4 md:px-6 inset-0 bg-gradient-to-t from-black/2 0 to-black/20">
+                class="w-full h-full flex flex-col justify-end items-start text-white p-4 md:px-6 inset-0 bg-gradient-to-t from-black/30 to-black/30">
                 <div class="mt-auto ">
                   <p class="mt-2 text-xs md:text-base md:0">Tawuran Remaja Marak di Semarang, Dua Nyawa Melayang
                   </p>
                   <button
-                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center duration-300 hover:backdrop-blur-3xl transition-all">
                     <span class="text-sm font-semibold lg:px-4">Telusuri</span>
                     <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
@@ -126,13 +126,13 @@
           </div>
           <!-- Card 6 -->
           <div
-            class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[90%] mb-6">
+            class="rounded-super-rounded overflow-hidden sh adow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[90%] mb-6">
             <div class="w-full h-full bg-[url('/assets/image/card3.png')] bg-center bg-cover flex items-start">
               <div
                 class="w-full h-full flex flex-col justify-center gap-10 lg:gap-40 items-start text-white p-6 lg:px-4 inset-0 bg-gradient-to-t from-black/40 to-black/40">
-                <h3 class="text-xs md:text-lg font-semibold">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
+                <h3 class="text-xs md:text-lg font-semibold flex-1">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
                 <button
-                    class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
+                    class=" hover:backdrop-blur-3xl  mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
                     <span class="text-sm font-semibold lg:px-4">Telusuri</span>
                     <div class="w-7 h-7 md:w-10 md:h-10 bg-[#a52a2d] rounded-full flex items-center justify-center translate-x-2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transform -rotate-45"
@@ -298,8 +298,8 @@
     class="relative min-h-screen flex flex-col items-center justify-center bg-[url('/assets/image/sledingan.png')] bg-no-repeat bg-bottom  bg-[length:100%_50%] font-jakarta px-4 lg:px-20">
     <!-- Heading -->
     <div class="text-center mb-7 justify-center items-center">
-      <h1 class="text-3xl lg:text-5xl font-bold" data-aos="zoom-out" data-aos-duration="500">
-        <span class="text-[#a52a2d] m" data-aos>HUBUNGI</span>
+      <h1 class="text-3xl lg:text-5xl text-[#a52a2d] font-bold" data-aos="zoom-out" data-aos-duration="500">Hubungi
+        <span class="text-[#454955]" data-aos>kami.</span>
       </h1>
       <p class="text-black items-center md:text-lg font-medium mt-6" data-aos="zoom-out" data-aos-duration="500" data-aos-delay="200">
         Hubungi kami jika anda membutuhkan bantuan. Kami siap melayani anda dengan sepenuh hati
@@ -515,14 +515,6 @@
         <p class="text-white w-full md:max-w-[50%]">Laporkan, Kami Perbaiki! Bersama Wujudkan Jawa Tengah yang Lebih Baik.</p>
       </div>
       <div class="flex flex-col lg:ml-0 ml-5">
-        <div class="p-1 rounded-full bg-gradient-to-br from-[#A52A2D] w-[80] lg:w-full via-white to-[#A52A2D] mb-6">
-          <form class="bg-white h-12 border-none focus:outline-none w-full rounded-full flex justify-between items-center" action="">
-            <input class="border-none focus:outline-none rounded-full h-12 text-center md:text-left px-4 placeholder:text-xs lg:placeholder:text-base focus:ring-0 placeholder:text-gray-400 w-full md:w-auto flex-1" type="text" placeholder="Ketikan pesan">
-            <button class="bg-[#A52A2D] text-white rounded-full px-2 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.7rem,1vw,0.8rem)] ">
-              Kirim Pesan
-            </button>
-          </form>
-        </div>
         <h1 class="font-semibold text-white md:p-3 text-left">www.SwaraJateng.com</h1>
       </div>
     </div>
@@ -579,7 +571,7 @@
     <div class="relative flex flex-col w-full text-left md:text-left">
       <div class="flex items-center justify-start md:justify-start gap-4 rounded-md">
         <div class="bg-white p-2 rounded-full">
-          <svg width="38" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="30" height="30" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75047 3.13865C0.472656 5.41387 0.472656 9.08065 0.472656 16.409V21.5918C0.472656 28.9201 0.472656 32.5869 2.75047 34.8621C5.02569 37.1399 8.69247 37.1399 16.0208 37.1399H31.569C38.8974 37.1399 42.5642 37.1399 44.8394 34.8621C47.1172 32.5869 47.1172 28.9201 47.1172 21.5918V16.409C47.1172 9.08065 47.1172 5.41387 44.8394 3.13865C42.5642 0.86084 38.8974 0.86084 31.569 0.86084H16.0208C8.69247 0.86084 5.02569 0.86084 2.75047 3.13865ZM9.68496 9.07028C9.11315 8.68885 8.41323 8.55019 7.73919 8.6848C7.06514 8.81942 6.47217 9.21628 6.09074 9.78809C5.7093 10.3599 5.57064 11.0598 5.70525 11.7339C5.83987 12.4079 6.23673 13.0009 6.80855 13.3823L20.9211 22.789C21.7723 23.3561 22.7722 23.6587 23.7949 23.6587C24.8177 23.6587 25.8176 23.3561 26.6688 22.789L40.7813 13.3823C41.3532 13.0009 41.75 12.4079 41.8846 11.7339C42.0192 11.0598 41.8806 10.3599 41.4992 9.78809C41.1177 9.21628 40.5248 8.81942 39.8507 8.6848C39.1767 8.55019 38.4767 8.68885 37.9049 9.07028L23.7949 18.4769L9.68496 9.07028Z" fill="#454955"/>
           </svg>
         </div>

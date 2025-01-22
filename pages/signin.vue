@@ -78,20 +78,20 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Nama Lengkap"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none focus:ring-0 border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
                 class="p-[2px] rounded-full bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D] w-full shadow-lg mb-5">
                 <div
-                    class="flex flex-row gap-2 bg-white border-2 border-transparent shadow-md rounded-full items-center justify-center pl-4 w-full">
+                    class="flex flex-row gap-2 bg-white border-2  border-transparent shadow-md rounded-full items-center justify-center pl-4 w-full">
                     <svg width="20" height="20" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M2.75047 3.13865C0.472656 5.41387 0.472656 9.08065 0.472656 16.409V21.5918C0.472656 28.9201 0.472656 32.5869 2.75047 34.8621C5.02569 37.1399 8.69247 37.1399 16.0208 37.1399H31.569C38.8974 37.1399 42.5642 37.1399 44.8394 34.8621C47.1172 32.5869 47.1172 28.9201 47.1172 21.5918V16.409C47.1172 9.08065 47.1172 5.41387 44.8394 3.13865C42.5642 0.86084 38.8974 0.86084 31.569 0.86084H16.0208C8.69247 0.86084 5.02569 0.86084 2.75047 3.13865ZM9.68496 9.07028C9.11315 8.68885 8.41323 8.55019 7.73919 8.6848C7.06514 8.81942 6.47217 9.21628 6.09074 9.78809C5.7093 10.3599 5.57064 11.0598 5.70525 11.7339C5.83987 12.4079 6.23673 13.0009 6.80855 13.3823L20.9211 22.789C21.7723 23.3561 22.7722 23.6587 23.7949 23.6587C24.8177 23.6587 25.8176 23.3561 26.6688 22.789L40.7813 13.3823C41.3532 13.0009 41.75 12.4079 41.8846 11.7339C42.0192 11.0598 41.8806 10.3599 41.4992 9.78809C41.1177 9.21628 40.5248 8.81942 39.8507 8.6848C39.1767 8.55019 38.4767 8.68885 37.9049 9.07028L23.7949 18.4769L9.68496 9.07028Z"
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Email"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none focus:ring-0 border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div
@@ -104,16 +104,16 @@
                             fill="#A52A2D" />
                     </svg>
                     <input type="text" placeholder="Password"
-                        class="w-full focus:outline-none border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
+                        class="w-full focus:outline-none focus:ring-0 border-none bg-white rounded-full p-3 md:p-4 text-gray-800" />
                 </div>
             </div>
             <div class="w-full items-start ml-10 mb-5">
                 <input checked id="checked-checkbox" type="checkbox" value=""
-                    class="w-4 h-4 text-[#1d8f2c] bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    class="w-4 h-4 text-[#a52a2d] bg-gray-100 border-gray-300 rounded focus:ring-red-800 dark:focus:ring-green-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                 <label for="checked-checkbox" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ingatkan
                     Saya</label>
             </div>
-            <button class="bg-[#A52A2D] p-2 rounded-full w-[50%] md:w-[30%] shadow-xl text-white font-semibold mb-5">
+            <button class="bg-[#A52A2D] p-2 rounded-full w-[50%] md:w-[30%] shadow-lg hover:bg-red-700 transition-all duration-200 text-white font-semibold mb-5">
                 Masuk
             </button>
             <div class="flex flex-row justify-between md:gap-0 items-center w-full mb-5">

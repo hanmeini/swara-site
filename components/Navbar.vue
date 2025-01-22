@@ -137,7 +137,7 @@
         <button 
           class="relative hidden lg:block items-center px-7 bg-gray-700 text-white py-2.5 rounded-full group hover:bg-gray-600 transition duration-300"
         >
-          <span class="text-[0.5rem] md:text-sm font-semibold pr-5">Sign up</span>
+          <span class="text-[0.5rem] md:text-sm font-semibold pr-5">Daftar</span>
           <div 
             class="absolute right-2 top-2 flex justify-center items-center w-7 h-7 bg-red-600 rounded-full transition-transform duration-300 group-hover:translate-x-1"
           >
