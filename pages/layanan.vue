@@ -63,7 +63,7 @@
           <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
             <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
             <div class="ml-4 flex-grow border-none">
-              <input class="w-full text-sm rounded pb-2 outline-none focus:outline-none" placeholder="Ketikkan komentar..."
+              <input class="w-full text-sm rounded pb-2 outline-none focus:outline-none focus:ring-0 border-none" placeholder="Ketikkan komentar..."
                 type="text" />
               <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
@@ -157,7 +157,7 @@
           <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
             <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
             <div class="ml-4 flex-grow">
-              <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
+              <input class="w-full text-sm rounded pb-2 focus:outline-none border-none focus:ring-0" placeholder="Ketikkan komentar..."
                 type="text" />
               <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
@@ -250,7 +250,7 @@
           <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
             <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
             <div class="ml-4 flex-grow">
-              <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
+              <input class="w-full text-sm rounded pb-2 focus:outline-none focus:ring-0 border-none " placeholder="Ketikkan komentar..."
                 type="text" />
               <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
@@ -343,7 +343,7 @@
           <div class="mt-4 flex border-2 border-gray-100 shadow-sm rounded-3xl p-3">
             <img alt="User profile picture" class="rounded-full mb-4 w-11 h-11" src="../assets/image/chaeyeon.png" />
             <div class="ml-4 flex-grow">
-              <input class="w-full text-sm rounded pb-2 focus:outline-none" placeholder="Ketikkan komentar..."
+              <input class="w-full text-sm rounded pb-2 focus:outline-none focus:ring-0 border-none" placeholder="Ketikkan komentar..."
                 type="text" />
               <div class="justify-between flex items-center mt-2">
                 <div class="flex gap-2">
@@ -497,7 +497,7 @@
 
             <!-- Input -->
             <input type="text" placeholder="Ketikan keluhanmu"
-              class="flex-1 bg-transparent border-none focus:outline-none placeholder-gray-400 text-sm" />
+              class="flex-1 bg-transparent border-none focus:outline-none focus:ring-0 placeholder-gray-400 text-sm" />
 
             <!-- Icon Kirim -->
             <button class="flex items-center justify-center w-8 h-8">

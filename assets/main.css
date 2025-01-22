@@ -8,6 +8,7 @@ html,body {
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
 }
 
 @font-face {

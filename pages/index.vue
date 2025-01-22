@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section -->
-  <section id="home" class=" relative px-10 py-32 lg:flex lg:justify-between lg:items-start font-jakarta">
+  <section id="home" class=" relative px-10 py-32 lg:flex lg:justify-between lg:items-start font-jakarta w-full">
     <!-- Radial Gradient Circle di Kiri -->
     <div
       class="absolute top-[10%] md:top-[20%] left-0 transform -translate-y-1/3 w-96 h-96 bg-gradient-to-br from-[#ff284ce1] to-transparent rounded-full opacity-30 blur-3xl z-0">
@@ -40,7 +40,7 @@
             class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 w-[48%] lg:w-full h-50 lg:h-[70%] mb-6">
             <div class="w-full h-full bg-[url('/assets/image/card1.png')] bg-center flex items-start">
               <div
-                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-44 items-start text-white p-4 lg:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
+                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-44 items-start text-white p-4 lg:px-6 inset-0 bg-gradient-to-t from-black/30 to-black/30">
                 <h3 class="text-sm md:text-lg font-bold">Sejauh mana masalah sampah di Indonesia?</h3>
                 <div>
                   <button
@@ -90,9 +90,9 @@
             class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-end bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[70%] mb-6 ">
             <div class="w-full h-full bg-[url('/assets/image/card2.png')] bg-center bg-cover flex items-start ">
               <div
-                class="w-full h-full flex flex-col justify-end items-start text-white p-4 md:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
-                <div class="mt-auto">
-                  <p class="mt-2 text-xs md:text-base mb-16 md:0">Tawuran Remaja Marak di Semarang, Dua Nyawa Melayang
+                class="w-full h-full flex flex-col justify-end items-start text-white p-4 md:px-6 inset-0 bg-gradient-to-t from-black/2 0 to-black/20">
+                <div class="mt-auto ">
+                  <p class="mt-2 text-xs md:text-base md:0">Tawuran Remaja Marak di Semarang, Dua Nyawa Melayang
                   </p>
                   <button
                     class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
@@ -129,8 +129,8 @@
             class="rounded-super-rounded overflow-hidden shadow group flex flex-col justify-between bg-gray-100 h-50 w-[48%] lg:w-full lg:h-[90%] mb-6">
             <div class="w-full h-full bg-[url('/assets/image/card3.png')] bg-center bg-cover flex items-start">
               <div
-                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-40 items-start text-white p-6 lg:px-6 inset-0 bg-gradient-to-t from-black/40 to-transparent">
-                <h3 class="text-xs md:text-lg font-bold">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
+                class="w-full h-full flex flex-col justify-center gap-10 lg:gap-40 items-start text-white p-6 lg:px-4 inset-0 bg-gradient-to-t from-black/40 to-black/40">
+                <h3 class="text-xs md:text-lg font-semibold">Mari jaga bersama dengan menyuarakan solusi yang membangun</h3>
                 <button
                     class="mt-4 px-3 py-1 md:px-3 md:py-1 bg-gray-800/40 backdrop-blur-md text-white rounded-full flex justify-between gap-2 md:gap-5 items-center group-hover:transition duration-300">
                     <span class="text-sm font-semibold lg:px-4">Telusuri</span>
@@ -312,7 +312,7 @@
       <div class="flex flex-col lg:flex-row bg-white rounded-[calc(3rem-1.2rem)] overflow-hidden w-full max-w-7xl">
         <!-- Bagian Kontak -->
         <div class="bg-[#a52a2d] relative p-6 rounded-[calc(3rem-1.5rem)] m-1 md:p-12 text-white lg:max-w-sm">
-          <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+          <h2 class="text-2xl font-bold mb-4">Informasi Kontak</h2>
           <p class="text-sm mb-6">
             Ada pertanyaan atau butuh bantuan? Kami di sini untuk membantu! Jangan ragu untuk menghubungi kami melalui saluran berikut:
           </p>
@@ -326,7 +326,7 @@
               </svg>
             </div>
             <div>
-              <p class="font-semibold">Call Us</p>
+              <p class="font-semibold">Panggil Kami</p>
               <p class="text-sm">+628293788283702</p>
             </div>
           </div>
@@ -339,7 +339,7 @@
               </svg>
             </div>
             <div>
-              <p class="font-semibold">Email Us</p>
+              <p class="font-semibold">Email Kami</p>
               <p class="text-sm">SwaraIndonesia@gmail.com</p>
             </div>
           </div>
@@ -352,13 +352,13 @@
               </svg>
             </div>
             <div>
-              <p class="font-semibold">Head Office</p>
+              <p class="font-semibold">Kantor Pusat</p>
               <p class="text-sm">Jl. Tri Lomba Juang No.18, Semarang</p>
             </div>
           </div>
 
           <!-- Social Media -->
-          <p class="font-semibold text-sm mb-2">Follow our social media</p>
+          <p class="font-semibold text-sm mb-2">Ikuti media sosial kami</p>
           <div class="flex gap-2" >
             <div class="p-1 bg-white text-red-600 font-bold rounded-full shadow-lg z-50">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
@@ -422,8 +422,8 @@
         </div>
 
         <!-- Bagian Form -->
-        <div class="p-8 md:p-12 bg-gradient-to-br from-white via-gray-50 to-red-100 flex-1">
-          <form class="space-y-6">
+        <div class="p-8 md:p-12 bg-gradient-to-br from-white via-gray-50 to-red-100 flex-1 ">
+          <form class="space-y-6 ">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <!-- Input Nama Lengkap -->
               <div class="p-1 rounded-2xl bg-gradient-to-br from-[#A52A2D] via-white to-[#A52A2D]">
@@ -435,7 +435,7 @@
                       fill="#A52A2D" />
                   </svg>
                   <input type="text" placeholder="Nama Lengkap" 
-                    class="w-full border-none focus:outline-none  bg-white rounded-xl p-4 text-gray-800" />
+                    class="w-full border-none focus:outline-none focus:ring-0  bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
               <!-- Input Perusahaan -->
@@ -447,8 +447,8 @@
                       d="M11.733 0.25H6.267C5.455 0.25 4.798 0.25 4.267 0.295C3.717 0.342 3.234 0.44 2.787 0.676C2.07746 1.05316 1.50575 1.64553 1.154 2.368C0.931 2.822 0.838 3.312 0.794 3.875C0.75 4.424 0.75 5.102 0.75 5.947V16.053C0.75 16.898 0.75 17.576 0.793 18.125C0.838 18.688 0.931 19.178 1.153 19.632C1.50527 20.3548 2.07772 20.9472 2.788 21.324C3.234 21.56 3.718 21.658 4.266 21.704C4.681 21.74 5.17 21.748 5.75 21.75V14.5C5.75 13.7707 6.03973 13.0712 6.55546 12.5555C7.07118 12.0397 7.77065 11.75 8.5 11.75H9.5C10.2293 11.75 10.9288 12.0397 11.4445 12.5555C11.9603 13.0712 12.25 13.7707 12.25 14.5V21.75C12.7451 21.7543 13.2401 21.7393 13.734 21.705C14.283 21.658 14.766 21.56 15.212 21.324C15.9219 20.947 16.494 20.3546 16.846 19.632C17.069 19.178 17.162 18.688 17.206 18.124C17.25 17.576 17.25 16.898 17.25 16.054V5.947C17.25 5.102 17.25 4.424 17.207 3.875C17.163 3.312 17.069 2.822 16.847 2.368C16.4947 1.64523 15.9223 1.05282 15.212 0.676C14.766 0.44 14.282 0.342 13.734 0.296C13.202 0.25 12.545 0.25 11.734 0.25M4.25 5C4.25 4.80109 4.32902 4.61032 4.46967 4.46967C4.61032 4.32902 4.80109 4.25 5 4.25H7C7.19891 4.25 7.38968 4.32902 7.53033 4.46967C7.67098 4.61032 7.75 4.80109 7.75 5C7.75 5.19891 7.67098 5.38968 7.53033 5.53033C7.38968 5.67098 7.19891 5.75 7 5.75H5C4.80109 5.75 4.61032 5.67098 4.46967 5.53033C4.32902 5.38968 4.25 5.19891 4.25 5ZM5 8.25H7C7.19891 8.25 7.38968 8.32902 7.53033 8.46967C7.67098 8.61032 7.75 8.80109 7.75 9C7.75 9.19891 7.67098 9.38968 7.53033 9.53033C7.38968 9.67098 7.19891 9.75 7 9.75H5C4.80109 9.75 4.61032 9.67098 4.46967 9.53033C4.32902 9.38968 4.25 9.19891 4.25 9C4.25 8.80109 4.32902 8.61032 4.46967 8.46967C4.61032 8.32902 4.80109 8.25 5 8.25ZM10.25 5C10.25 4.80109 10.329 4.61032 10.4697 4.46967C10.6103 4.32902 10.8011 4.25 11 4.25H13C13.1989 4.25 13.3897 4.32902 13.5303 4.46967C13.671 4.61032 13.75 4.80109 13.75 5C13.75 5.19891 13.671 5.38968 13.5303 5.53033C13.3897 5.67098 13.1989 5.75 13 5.75H11C10.8011 5.75 10.6103 5.67098 10.4697 5.53033C10.329 5.38968 10.25 5.19891 10.25 5ZM11 8.25H13C13.1989 8.25 13.3897 8.32902 13.5303 8.46967C13.671 8.61032 13.75 8.80109 13.75 9C13.75 9.19891 13.671 9.38968 13.5303 9.53033C13.3897 9.67098 13.1989 9.75 13 9.75H11C10.8011 9.75 10.6103 9.67098 10.4697 9.53033C10.329 9.38968 10.25 9.19891 10.25 9C10.25 8.80109 10.329 8.61032 10.4697 8.46967C10.6103 8.32902 10.8011 8.25 11 8.25Z"
                       fill="#A52A2D" />
                   </svg>
-                  <input type="text" placeholder="Perusahaan"
-                    class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
+                  <input type="text" placeholder="Instansi"
+                    class="w-full border-none focus:outline-none focus:ring-0 bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
             </div>
@@ -464,7 +464,7 @@
                       fill="#A52A2D" />
                   </svg>
                   <input type="tel" placeholder="Nomor telepon"
-                    class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
+                    class="w-full border-none focus:outline-none focus:ring-0 bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
               <!-- Input Email -->
@@ -477,7 +477,7 @@
                       fill="#A52A2D" />
                   </svg>
                   <input type="email" placeholder="Email"
-                    class="w-full border-none focus:outline-none bg-white rounded-xl p-4 text-gray-800" />
+                    class="w-full border-none focus:outline-none focus:ring-0 bg-white rounded-xl p-4 text-gray-800" />
                 </div>
               </div>
             </div>
@@ -489,7 +489,7 @@
                   <textarea
               placeholder="Ketikkan pesan..."
               rows="4"
-              class="w-full focus:outline-none border-none bg-white rounded-xl p-4 text-gray-800resize-none"
+              class="w-full focus:outline-none border-none bg-white rounded-xl focus:ring-0 p-4 text-gray-800resize-none"
             ></textarea>
                 </div>
               </div>
@@ -511,14 +511,14 @@
   <footer class="flex flex-col">
     <div class="bg-gradient-to-r from-[#A52A2D] to-[#3D4047] p-10 flex flex-row justify-between">
       <div class="flex flex-col mb-6 md:mb-0">
-        <h1 class="text-white font-bold [font-size:_clamp(0.7rem,5vw,2rem)] mb-6">Our Newsletter</h1>
+        <h1 class="text-white font-bold [font-size:_clamp(0.7rem,5vw,2rem)] mb-6">Buletin Kami</h1>
         <p class="text-white w-full md:max-w-[50%]">Laporkan, Kami Perbaiki! Bersama Wujudkan Jawa Tengah yang Lebih Baik.</p>
       </div>
       <div class="flex flex-col lg:ml-0 ml-5">
         <div class="p-1 rounded-full bg-gradient-to-br from-[#A52A2D] w-[80] lg:w-full via-white to-[#A52A2D] mb-6">
           <form class="bg-white h-12 border-none focus:outline-none w-full rounded-full flex justify-between items-center" action="">
-            <input class="border-none focus:outline-none rounded-full h-12 text-center md:text-left px-4 placeholder:text-xs lg:placeholder:text-base placeholder:text-gray-400 w-full md:w-auto flex-1" type="text" placeholder="Ketikan pesan">
-            <button class="bg-[#A52A2D] text-white rounded-full px-2 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.7rem,1vw,0.8rem)]">
+            <input class="border-none focus:outline-none rounded-full h-12 text-center md:text-left px-4 placeholder:text-xs lg:placeholder:text-base focus:ring-0 placeholder:text-gray-400 w-full md:w-auto flex-1" type="text" placeholder="Ketikan pesan">
+            <button class="bg-[#A52A2D] text-white rounded-full px-2 py-3 md:px-7 md:py-2 lg:py-3 font-semibold [font-size:_clamp(0.7rem,1vw,0.8rem)] ">
               Kirim Pesan
             </button>
           </form>
